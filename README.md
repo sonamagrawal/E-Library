@@ -1,4 +1,4 @@
 E-Library
 =========
 
-E-Library for college - PHP
+E-Library is an Library Management System designedmin PHP for my college under my Academic project 2013.
