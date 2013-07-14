@@ -10,7 +10,7 @@ include_once("config.php");
     </head>
     <body>
         <?php
-        $query = "select title,author,category.name as name from books join category on books.category_id = category.category_id";
+        $query = "select DISTINCT title,author,category.name as name from books join category on books.category_id = category.category_id";
         $result = mysql_query($query);
         $title = '';
         $author = '';
@@ -33,19 +33,19 @@ include_once("config.php");
                     <div class="row-fluid">
                         <div class="span12">
                             <table class="table well">
-                                <form class="form-horizontal" action="index.php" style="border:1px solid yellow">
+                                <form class="form-horizontal" action="books.php" method="POST">
                                     <tbody>
                                         <tr>
                                             <td>
                                                 <div class="control-group">
                                                     <div class="controls">
                                                         TITLE &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input
-                                                        class="span8" type="text" name="title"
-                                                        PLACEHOLDER="Select Title"
-                                                        data-provide="typeahead" autocomplete="off"
-                                                        data-items="6"
-                                                        min-length="1"
-                                                        data-source='<?php echo $title_list ?>'>
+                                                            class="span8" type="text" name="title"
+                                                            PLACEHOLDER="Select Title"
+                                                            data-provide="typeahead" autocomplete="off"
+                                                            data-items="6"
+                                                            min-length="1"
+                                                            data-source='<?php echo $title_list ?>'>
                                                     </div>
                                                 </div>
                                             </td>
@@ -55,15 +55,14 @@ include_once("config.php");
                                                 <div class="control-group">
                                                     <div class="controls">
                                                         AUTHOR &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input class="span8"
-                                                        type="text"
-                                                        name="title"
-                                                        PLACEHOLDER="Select Title"
-                                                        data-provide="typeahead"
-                                                        autocomplete="off"
-                                                        data-items="6"
-                                                        required
-                                                        min-length="1"
-                                                        data-source='<?php echo $author_list ?>'>
+                                                                                                     type="text"
+                                                                                                     name="author"
+                                                                                                     PLACEHOLDER="Select Title"
+                                                                                                     data-provide="typeahead"
+                                                                                                     autocomplete="off"
+                                                                                                     data-items="6"
+                                                                                                     min-length="1"
+                                                                                                     data-source='<?php echo $author_list ?>'>
                                                     </div>
                                                 </div>
                                             </td>
@@ -72,13 +71,13 @@ include_once("config.php");
                                             <td>
                                                 <div class="control-group">
                                                     <div class="controls">
-                                                        CATEGORY &nbsp <input class="span8" type="text" name="title"
-                                                        PLACEHOLDER="Select Title"
-                                                        data-provide="typeahead"
-                                                        autocomplete="off"
-                                                        data-items="6"
-                                                        min-length="1"
-                                                        data-source='<?php echo $category_list ?>'>
+                                                        CATEGORY &nbsp <input class="span8" type="text" name="category"
+                                                                              PLACEHOLDER="Select Title"
+                                                                              data-provide="typeahead"
+                                                                              autocomplete="off"
+                                                                              data-items="6"
+                                                                              min-length="1"
+                                                                              data-source='<?php echo $category_list ?>'>
                                                     </div>
                                                 </div>
                                             </td>
@@ -86,13 +85,13 @@ include_once("config.php");
                                         <tr>
                                             <td>
                                                 <div class="form-actions">
-                                                    <script ></script>
+                                                    <script></script>
                                                     <button type="RESET" class="btn btn-large btn-primary" name="reset">
                                                         RESET
                                                     </button>
                                                     <button id="dddd" type="SUBMIT" class="btn btn-large btn-success"
-                                                    data-loading-text="Searching.."
-                                                    name="submit">GO!
+                                                            data-loading-text="Searching.."
+                                                            name="submit">GO!
                                                     </button>
                                                 </div>
                                             </td>
@@ -112,10 +111,9 @@ include_once("config.php");
     </body>
     <script src="/public_html/jquery/jquery.js"></script>
     <script src="/public_html/js/bootstrap-typeahead.js"></script>
-    <script src="/public_html/js/bootstrap-application.js"></script>
-    <script src="/public_html/js/bootstrap-button.js"> </script>
+    <script src="/public_html/js/bootstrap-button.js"></script>
     <script>$('#dddd')
-    .click(function () {
+            .click(function () {
                 var btn = $(this)
                 btn.button('loading')
                 setTimeout(function () {
