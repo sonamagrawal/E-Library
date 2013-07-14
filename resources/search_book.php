@@ -24,8 +24,6 @@ include_once("config.php");
         $author_list = '[' . rtrim($author, ",") . ']';
         $category_list = '[' . rtrim($category, ",") . ']';
         ?>
-        <script src="/public_html/jquery/jquery.js"></script>
-        <script src="/public_html/js/bootstrap-typeahead.js"></script>
         <div class="container-fluid">
             <div class="row-fluid">
                 <div class="span4" style="border:1px solid black">
@@ -44,7 +42,6 @@ include_once("config.php");
                                                         TITLE &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input
                                                         class="span8" type="text" name="title"
                                                         PLACEHOLDER="Select Title"
-                                                        required
                                                         data-provide="typeahead" autocomplete="off"
                                                         data-items="6"
                                                         min-length="1"
@@ -58,15 +55,15 @@ include_once("config.php");
                                                 <div class="control-group">
                                                     <div class="controls">
                                                         AUTHOR &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input class="span8"
-                                                                                                     type="text"
-                                                                                                     name="title"
-                                                                                                     PLACEHOLDER="Select Title"
-                                                                                                     required
-                                                                                                     data-provide="typeahead"
-                                                                                                     autocomplete="off"
-                                                                                                     data-items="6"
-                                                                                                     min-length="1"
-                                                                                                     data-source='<?php echo $author_list ?>'>
+                                                        type="text"
+                                                        name="title"
+                                                        PLACEHOLDER="Select Title"
+                                                        data-provide="typeahead"
+                                                        autocomplete="off"
+                                                        data-items="6"
+                                                        required
+                                                        min-length="1"
+                                                        data-source='<?php echo $author_list ?>'>
                                                     </div>
                                                 </div>
                                             </td>
@@ -76,13 +73,12 @@ include_once("config.php");
                                                 <div class="control-group">
                                                     <div class="controls">
                                                         CATEGORY &nbsp <input class="span8" type="text" name="title"
-                                                                              PLACEHOLDER="Select Title"
-                                                                              required
-                                                                              data-provide="typeahead"
-                                                                              autocomplete="off"
-                                                                              data-items="6"
-                                                                              min-length="1"
-                                                                              data-source='<?php echo $category_list ?>'>
+                                                        PLACEHOLDER="Select Title"
+                                                        data-provide="typeahead"
+                                                        autocomplete="off"
+                                                        data-items="6"
+                                                        min-length="1"
+                                                        data-source='<?php echo $category_list ?>'>
                                                     </div>
                                                 </div>
                                             </td>
@@ -90,11 +86,13 @@ include_once("config.php");
                                         <tr>
                                             <td>
                                                 <div class="form-actions">
+                                                    <script ></script>
                                                     <button type="RESET" class="btn btn-large btn-primary" name="reset">
                                                         RESET
                                                     </button>
-                                                    <button type="SUBMIT" class="btn btn-large btn-success"
-                                                            name="submit">GO!
+                                                    <button id="dddd" type="SUBMIT" class="btn btn-large btn-success"
+                                                    data-loading-text="Searching.."
+                                                    name="submit">GO!
                                                     </button>
                                                 </div>
                                             </td>
@@ -112,4 +110,16 @@ include_once("config.php");
         </div>
 
     </body>
+    <script src="/public_html/jquery/jquery.js"></script>
+    <script src="/public_html/js/bootstrap-typeahead.js"></script>
+    <script src="/public_html/js/bootstrap-application.js"></script>
+    <script src="/public_html/js/bootstrap-button.js"> </script>
+    <script>$('#dddd')
+    .click(function () {
+                var btn = $(this)
+                btn.button('loading')
+                setTimeout(function () {
+                    btn.button('reset')
+                }, 2000)
+            });</script>
 </html>
