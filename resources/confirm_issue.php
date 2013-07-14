@@ -5,10 +5,12 @@ if (empty($_GET['id'])) {
     header("location:javascript://:history.go(-1)");
 } else
     $book_id = $_GET['id'];
-
-$query = "select title,author,company,published_year,category.name as name from books join category on books.category_id = category.category_id where book_id_no ='" . $book_id . "'";
+$_SESSION['u_id'] = '1';
+$query = "select title,author,company,published_year,category.name as name from books join category on                books.category_id = category.category_id where book_id_no ='" . $book_id . "'";
 $result = mysql_query($query);
 $row = mysql_fetch_array($result);
+$query = "select card_id from card_detail where user_id = '" . $_SESSION['u_id'] . "'";
+$result_card = mysql_query($query);
 ?>
 <html>
     <head>
@@ -26,8 +28,9 @@ $row = mysql_fetch_array($result);
                         <div class="span12" style="background-color: #808080">
                             <h2><strong>CONFIRM BOOK ISSUE</strong></h2>
                         </div>
-                    </div></br>
-                    <div class="row-fluid" >
+                    </div>
+                    </br>
+                    <div class="row-fluid">
                         <div class="span4">
                             <b>Title : </b> <?php echo $row['title']?>
                         </div>
@@ -48,10 +51,18 @@ $row = mysql_fetch_array($result);
                             <b>Published On : </b> <?php echo $row['published_year']?>
                         </div>
                         <div class="span4">
-                            <b>Published On : </b> <?php echo $row['published_year']?>
+                            <b>Card ID : </b>
+                            <select required size=1 name="card_id">
+                                <?php
+                                while ($row_card = mysql_fetch_array($result_card)) {
+                                    echo  "<option>".$row_card['card_id']."</option>";
+                                }
+                                ?>
+                            </select>
                         </div>
                     </div>
-                    </br><hr>
+                    </br>
+                    <hr>
                     <div class="row-fluid">
                         <div class="span2">
                             <button id="comfirm" type="submit" class="btn btn-large btn-success"
