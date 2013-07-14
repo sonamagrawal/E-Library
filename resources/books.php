@@ -6,7 +6,6 @@ $author = $_POST['author'] ? strtoupper($_POST['author']) : '%';
 $category = $_POST['category'] ? strtoupper($_POST['category']) : '%';
 $query = "select book_id_no,title,author,company,published_year,in_rack,category.name as name from books join category on books.category_id = category.category_id where title like ('" . $title . "') and author like('" . $author . "') and category.name like ('" . $category . "') order by popularity desc,published_year desc,in_rack desc";
 $result = mysql_query($query);
-//echo mysql_num_rows($result);
 ?>
 <html>
     <head>
@@ -53,8 +52,6 @@ $result = mysql_query($query);
                             }?>
                         </tbody>
                     </table>
-<!--                    <a href='confirm_issue.php?id="aaa"'><button class='btn btn-info' type='button'>Issue-->
-<!--                    </button></a>-->
                 </div>
             </div>
         </div>
