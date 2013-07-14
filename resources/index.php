@@ -1,4 +1,4 @@
-<!DOCTYPE>
+<!DOCTYPE HTML>
 <?php
 include_once("session.php")
 ?>
