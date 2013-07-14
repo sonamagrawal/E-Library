@@ -85,7 +85,6 @@ include_once("config.php");
                                         <tr>
                                             <td>
                                                 <div class="form-actions">
-                                                    <script></script>
                                                     <button type="RESET" class="btn btn-large btn-primary" name="reset">
                                                         RESET
                                                     </button>
