@@ -12,7 +12,7 @@ $_SESSION['u_id'] = '1';
 $query = "select title,author,company,published_year,category.name as name from books join category on                books.category_id = category.category_id where book_id_no ='" . $book_id . "'";
 $result = mysql_query($query);
 $row = mysql_fetch_array($result);
-$query = "select card_id from card_detail where user_id = '" . $_SESSION['u_id'] . "'";
+$query = "select card_id from card_detail where user_id = '" . $_SESSION['u_id'] . "' and ISSUED='N'";
 $result_card = mysql_query($query);
 ?>
 <html>
