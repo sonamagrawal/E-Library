@@ -26,7 +26,7 @@ include_once("config.php");
         ?>
         <div class="container-fluid">
             <div class="row-fluid">
-                <div class="span4" style="border:1px solid black">
+                <div class="span3" style="border:1px solid black">
                     <div class="row-fluid">
                         <div class="span12">SEARCH BOOK</div>
                     </div>
@@ -102,7 +102,7 @@ include_once("config.php");
                         </div>
                     </div>
                 </div>
-                <div class="span8" style="border:1px solid black">
+                <div class="span9" style="border:1px solid black">
                     <!--Body content-->
                 </div>
             </div>
