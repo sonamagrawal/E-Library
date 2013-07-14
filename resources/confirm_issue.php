@@ -5,7 +5,10 @@ if (empty($_GET['id'])) {
     header("location:javascript://:history.go(-1)");
 } else
     $book_id = $_GET['id'];
+
+session_start();
 $_SESSION['u_id'] = '1';
+
 $query = "select title,author,company,published_year,category.name as name from books join category on                books.category_id = category.category_id where book_id_no ='" . $book_id . "'";
 $result = mysql_query($query);
 $row = mysql_fetch_array($result);
@@ -30,56 +33,55 @@ $result_card = mysql_query($query);
                         </div>
                     </div>
                     </br>
-                    <div class="row-fluid">
-                        <div class="span4">
-                            <b>Title : </b> <?php echo $row['title']?>
+                    <form action="issued!.php" method="POST">
+                        <div class="row-fluid">
+                            <div class="span4">
+                                <b>Title : </b> <?php echo $row['title']?>
+                            </div>
+                            <div class="span4">
+                                <b>Author : </b> <?php echo $row['author']?>
+                            </div>
                         </div>
-                        <div class="span4">
-                            <b>Author : </b> <?php echo $row['author']?>
+                        <div class="row-fluid">
+                            <div class="span4">
+                                <b>Category : </b> <?php echo $row['name']?>
+                            </div>
+                            <div class="span4">
+                                <b>Company : </b> <?php echo $row['company']?>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row-fluid">
-                        <div class="span4">
-                            <b>Category : </b> <?php echo $row['name']?>
+                        <div class="row-fluid">
+                            <div class="span4">
+                                <b>Published On : </b> <?php echo $row['published_year']?>
+                            </div>
+                            <div class="span4">
+                                <b>Card ID : </b>
+                                <select required size=1 name="card_id">
+                                    <?php
+                                    while ($row_card = mysql_fetch_array($result_card)) {
+                                        echo  "<option>" . $row_card['card_id'] . "</option>";
+                                    }
+                                    ?>
+                                </select>
+                            </div>
                         </div>
-                        <div class="span4">
-                            <b>Company : </b> <?php echo $row['company']?>
+                        </br>
+                        <hr>
+                        <div class="row-fluid">
+                            <div class="span2">
+                                <button id="comfirm" type="submit" class="btn btn-large btn-success"
+                                        name="confirm"><i class="icon-ok"></i>CONFIRM
+                                </button>
+                            </div>
+                            <div class="span2">
+                                <button type="button" class="btn btn-large btn-warning" name="cancel"
+                                        onclick="javascript:history.go(-1)">
+                                    <i class="icon-remove"></i>CANCEL
+                                </button>
+                            </div>
+                            <input type="hidden" name="bookID" value='<?php echo $book_id ?>'>
                         </div>
-                    </div>
-                    <div class="row-fluid">
-                        <div class="span4">
-                            <b>Published On : </b> <?php echo $row['published_year']?>
-                        </div>
-                        <div class="span4">
-                            <b>Card ID : </b>
-                            <select required size=1 name="card_id">
-                                <?php
-                                while ($row_card = mysql_fetch_array($result_card)) {
-                                    echo  "<option>".$row_card['card_id']."</option>";
-                                }
-                                ?>
-                            </select>
-                        </div>
-                    </div>
-                    </br>
-                    <hr>
-                    <div class="row-fluid">
-                        <div class="span2">
-                            <button id="comfirm" type="submit" class="btn btn-large btn-success"
-                                    name="confirm"><i class="icon-ok"></i>CONFIRM
-                            </button>
-                        </div>
-                        <div class="span2">
-                            <button type="button" class="btn btn-large btn-warning" name="cancel">
-                                <i class="icon-remove"></i>CANCEL
-                            </button>
-                        </div>
-                        <div class="span2">
-                            <button type="button" class="btn btn-large btn-primary" name="back">
-                                <i class=" icon-arrow-left"></i>BACK
-                            </button>
-                        </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
