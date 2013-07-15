@@ -43,7 +43,8 @@ $result = mysql_query($query);
                                     <?php $counter = 0;
                                     while ($row = mysql_fetch_array($result)) {
                                         $counter++;
-                                        echo "<tr class='success'>
+                                        $status = date('Y-m-d ', strtotime($row['return_date'])) < date('Y-m-d ') ? 'warning' : 'success';
+                                        echo "<tr class='" . $status . "'>
                                             <td>" . $counter . "</td>
                                             <td>" . $row['title'] . "</td>
                                             <td>" . $row['author'] . "</td>

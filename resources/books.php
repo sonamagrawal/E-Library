@@ -37,8 +37,8 @@ $result = mysql_query($query);
                             <?php $counter = 0;
                             while ($row = mysql_fetch_array($result)) {
                                 $counter++;
-                                $status = $row['in_rack'] == 0 ? 'error' : 'success' ;
-                                echo "<tr class='".$status."'>
+                                $status = $row['in_rack'] == 0 ? 'error' : 'success';
+                                echo "<tr class='" . $status . "'>
                                 <td>" . $counter . "</td>
                                 <td>" . $row['title'] . "</td>
                                 <td>" . $row['author'] . "</td>
@@ -46,7 +46,7 @@ $result = mysql_query($query);
                                 <td>" . $row['name'] . "</td>
                                 <td>" . $row['published_year'] . "</td>
                                 <td>" . $row['in_rack'] . "</td>
-                                <td><a href='confirm_issue.php?id=". $row['book_id_no'] ."'><button class='btn btn-info' type='button'>Issue
+                                <td><a href='confirm_issue.php?id=" . $row['book_id_no'] . "'><button class='btn btn-info' type='button'>Issue
                                 </button></a></td>
                             </tr>";
                             }?>
