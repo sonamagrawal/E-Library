@@ -6,7 +6,7 @@ if (empty($_GET['id'])) {
 } else
     $book_id = $_GET['id'];
 
-session_start();
+#session_start();
 $_SESSION['u_id'] = '1';
 
 $query = "select title,author,company,published_year,category.name as name from books join category on                books.category_id = category.category_id where book_id_no ='" . $book_id . "'";
