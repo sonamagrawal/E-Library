@@ -12,9 +12,10 @@ if (mysql_num_rows($result) == 0) {
 $row = mysql_fetch_array($result);
 if (date('Y-m-d ', strtotime($row['return_date'])) > date('Y-m-d '))
     $fine = 0;
-else
+else{
     $interval = date_create($row['return_date'])->diff(date_create("now"));
 $fine = (($interval->y) * 365) + (($interval->m) * 30) + (($interval->d) * 1);
+}
 ?>
 <html>
     <head>
