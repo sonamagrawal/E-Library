@@ -7,8 +7,8 @@ $query = "select title,author,company,published_year,issued_date,return_date fro
             on books.book_id_no = issued_books.book_id_no where issued_books.user_id = '" . $_SESSION['u_id'] . "' and issued_books.returned = 'N'";
 $result = mysql_query($query);
 
-$fine_query = "select title,author,returned_on,fine_detail.fine as fine from issued_books join books on
-               issued_books.book_id_no = books.book_id_no join fine_detail on
+$fine_query = "select title,author,returned_on,return_date,fine_detail.fine as fine from issued_books join
+			   books on issued_books.book_id_no = books.book_id_no join fine_detail on
                issued_books.issue_code = fine_detail.issue_code where
                issued_books.user_id = '" . $_SESSION['u_id'] . "'and issued_books.fine = 'Y' and
                fine_detail.paid = 'N'";
