@@ -4,6 +4,8 @@ include_once("config.php");
 
 $query = "select roll_no from student_record ";
 $result = mysql_query($query);
+
+
 $id = '';
 while ($row = mysql_fetch_array($result)) {
     $id .= '"' . $row['roll_no'] . '",';
@@ -32,7 +34,7 @@ $id_list = '[' . rtrim($id, ",") . ']';
             <div class="row-fluid">
                 <div class="span12">
                     <form class="form-inline" action="confirm-due_clearance.php" method="POST">
-                        <input type="text" required class="span3" name="issue"
+                        <input type="text" required class="span3" name="rollno"
                                placeholder="Enter roll_no"
                                autocomplete="off"
                                data-provide="typeahead"

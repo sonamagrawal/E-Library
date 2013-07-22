@@ -1,11 +1,29 @@
 <!DOCTYPE HTML>
 <?php
 include_once("config.php");
-
+$roll_no = $_POST['rollno'];
 
 $query = "select first_name,last_name,enrollment_no,roll_no,branch,semester from student_record";
 $result = mysql_query($query);
 $row = mysql_fetch_array($result);
+
+
+$query1 = "select issued_books.issue_code,
+title,author,fine_detail.fine
+from student_record
+join issued_books on
+issued_books.user_id = student_record.user_id
+join fine_detail on
+fine_detail.issue_code = issued_books.issue_code
+join books on
+books.book_id_no = issued_books.book_id_no
+where roll_no = ".$roll_no." and issued_books.fine='Y'";
+$result1 = mysql_query($query1);
+
+
+
+
+
 
 ?>
 <html>
@@ -26,7 +44,7 @@ $row = mysql_fetch_array($result);
                 </div>
             </div>
             </br>
-            <form action="due_cleared.php" method="POST">
+            <form action="due_clearance!.php" method="POST">
                 <div class="row-fluid">
                     <div class="span4">
                         <b>username : </b> <?php echo $row['first_name'] . " " . $row['last_name'] ?>
@@ -64,12 +82,61 @@ $row = mysql_fetch_array($result);
                             <i class="icon-remove"></i>CANCEL
                         </button>
                     </div>
-                    <input type="hidden" name="bookID" value='<?php echo $book_id ?>'>
+
                 </div>
             </form>
         </div>
     </div>
 </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span3" style="border:1px solid black">
+        </div>
+        <div class="span9" style="border:1px solid black">
+            <table class="table table-striped">
+                <caption><i class="icon-tags"></i> Matched Result</caption>
+                <thead style="background: peru">
+                <tr>
+                    <th>#</th>
+                    <th>Issue Code</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Fine</th>
+
+
+                    <th>Action</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                <?php $counter = 0;
+                while ($row = mysql_fetch_array($result1)) {
+                    $counter++;
+
+                    echo "<tr>
+                                <td>" . $counter . "</td>
+
+
+
+
+                                <td>" . $row['issue_code'] . "</td>
+                                <td>" . $row['title'] . "</td>
+                                <td>" . $row['author'] . "</td>
+                                <td>" . $row['fine'] . "</td>
+
+                                <td>
+
+
+                                <button class='btn btn-info' type='button'>pay
+                                </button></td>
+                            </tr>";
+                }?>
+                </tbody>
+            </table>
+        </div>
+    </div>
 </div>
 </body>
 </html>
