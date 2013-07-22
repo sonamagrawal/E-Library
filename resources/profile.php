@@ -34,7 +34,7 @@ $result_fine = mysql_query($fine_query);
                     <div class="row-fluid">
                         <div class="span12">
                             <table class="table table-hover">
-                                <caption><i class="icon-book"></i>BOOKS IN HAND</caption>
+                                <caption><i class="icon-book"></i> BOOKS IN HAND</caption>
                                 <thead style="background: peru">
                                     <tr>
                                         <th>#</th>
@@ -68,7 +68,7 @@ $result_fine = mysql_query($fine_query);
                     <div class="row-fluid">
                         <div class="span12">
                             <table class="table table-hover">
-                                <caption><i class="icon-warning-sign"></i>FINE</caption>
+                                <caption><i class="icon-warning-sign"></i> FINE</caption>
                                 <thead style="background: peru">
                                     <tr>
                                         <th>#</th>
