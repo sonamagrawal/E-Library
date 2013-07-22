@@ -22,7 +22,7 @@ $result1 = mysql_query($query1);
 ?>
 <html>
 	<head>
-		<title> E-LIBRARY |DUE_CLEARANCE </title>
+		<title> E-LIBRARY |DUE CLEARANCE </title>
 		<link href="/public_html/css/bootstrap.css" type="text/css" rel="stylesheet">
 		<link href="/public_html/css/bootstrap-responsive.css" type="text/css" rel="stylesheet">
 	</head>
