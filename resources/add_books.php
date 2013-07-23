@@ -58,7 +58,7 @@
 				</div>
 				<div class="form-actions">
 					<button type="submit" class="btn btn-primary" name="submit">ADD</button>
-					<button type="reset" class="btn" name="reset">RESET</button>
+					<button type="reset" class="btn btn-primary" name="reset">RESET</button>
 				</div>
 			</fieldset>
 		</form>
