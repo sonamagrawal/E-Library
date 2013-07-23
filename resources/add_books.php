@@ -4,14 +4,28 @@
 		<link href="/public_html/css/bootstrap.css" rel="stylesheet">
 	</head>
 	<body>
-		<form action="book!.php" method="post" class="well form-horizontal">
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span3" style="border:1px solid black">
+            </div>
+
+            <div class="span9 " style="border:1px solid black">
+                <div class="row-fluid">
+                    <div class="span12" style="background-color: #808080">
+                        <h2><strong>ADD BOOKS</strong></h2>
+                    </div>
+                </div>
+
+                <div class="row-fluid">
+                    <div class="span12">
+		<form action="book!.php" method="post" class=" form-horizontal">
 			<fieldset>
-				<legend>NEW BOOK</legend>
+
 				<div class="control-group">
 					<label class="control-label">TITLE</label>
 
 					<div class="controls">
-						<input type="text" required class="input-xlarge" name="title" placeholder="title">
+						<input type="text" required class="span3" name="title" placeholder="title">
 					</div>
 				</div>
 				<div class="control-group">
@@ -19,7 +33,7 @@
 
 					<div class="controls">
 
-						<input type="text" required class="input-xlarge" name="author" placeholder="author">
+						<input type="text" required class="span3" name="author" placeholder="author">
 					</div>
 				</div>
 
@@ -28,7 +42,7 @@
 
 					<div class="controls">
 
-						<input type="text" required class="input-xlarge" name="company" placeholder="company">
+						<input type="text" required class="span3" name="company" placeholder="company">
 					</div>
 				</div>
 
@@ -36,7 +50,7 @@
 					<label class="control-label">PUBLISHED YEAR</label>
 
 					<div class="controls">
-						<input type="text" required class="input-small" name="year" placeholder="year">
+						<input type="text" required class="span3" name="year" placeholder="year">
 					</div>
 				</div>
 
@@ -44,7 +58,7 @@
 					<label class="control-label">NO. OF COPIES</label>
 
 					<div class="controls">
-						<input required type="text" class="input-small" name="copies" placeholder="copies">
+						<input required type="text" class="span3" name="copies" placeholder="copies">
 					</div>
 				</div>
 
@@ -53,12 +67,12 @@
 					<label class="control-label">CATEGORY</label>
 
 					<div class="controls">
-						<input required type="text" class="input-small" name="category" placeholder="category">
+						<input required type="text" class="span3" name="category" placeholder="category">
 					</div>
 				</div>
 				<div class="form-actions">
-					<button type="submit" class="btn btn-primary" name="submit">ADD</button>
-					<button type="reset" class="btn btn-primary" name="reset">RESET</button>
+					<button type="submit" class="btn btn-success" name="submit">ADD</button>
+					<button type="reset" class="btn btn-success" name="reset">RESET</button>
 				</div>
 			</fieldset>
 		</form>
