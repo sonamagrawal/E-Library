@@ -1,7 +1,21 @@
 <!DOCTYPE html>
+<?php
+include_once("config.php");
+
+$query = "select distinct name from category";
+$result = mysql_query($query);
+
+$id = '';
+while ($row = mysql_fetch_array($result)) {
+    $id .= '"' . $row['name'] . '",';
+}
+$id_list = '[' . rtrim($id, ",") . ']';
+?>
+
 <html lang="en">
 	<head>
 		<link href="/public_html/css/bootstrap.css" rel="stylesheet">
+        <link href="/public_html/css/bootstrap-responsive.css" type="text/css" rel="stylesheet">
 	</head>
 	<body>
     <div class="container-fluid">
@@ -67,7 +81,12 @@
 					<label class="control-label">CATEGORY</label>
 
 					<div class="controls">
-						<input required type="text" class="span3" name="category" placeholder="category">
+						<input required type="text" class="span3" name="category" placeholder="category"
+                               autocomplete="off"
+                               data-provide="typeahead"
+                               data-items="6"
+                               min-length="1"
+                               data-source='<?php echo $id_list ?>'>
 					</div>
 				</div>
 				<div class="form-actions">
@@ -77,4 +96,6 @@
 			</fieldset>
 		</form>
 	</body>
+    <script src="/public_html/jquery/jquery.js"></script>
+    <script src="/public_html/js/bootstrap-typeahead.js"></script>
 </html>
