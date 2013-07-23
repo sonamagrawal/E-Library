@@ -47,7 +47,7 @@ $id_list = '[' . rtrim($id, ",") . ']';
 
 					<div class="controls">
 
-						<input type="text" required class="span3" name="author" placeholder="author">
+						<input type="text" required class="span3" name="author" placeholder="eg:abc,xyz">
 					</div>
 				</div>
 
@@ -64,7 +64,7 @@ $id_list = '[' . rtrim($id, ",") . ']';
 					<label class="control-label">PUBLISHED YEAR</label>
 
 					<div class="controls">
-						<input type="text" required class="span3" name="year" placeholder="year">
+						<input type="text" required class="span3" name="year" placeholder="YYYY">
 					</div>
 				</div>
 
@@ -81,7 +81,7 @@ $id_list = '[' . rtrim($id, ",") . ']';
 					<label class="control-label">CATEGORY</label>
 
 					<div class="controls">
-						<input required type="text" class="span3" name="category" placeholder="category"
+						<input required type="text" class="span3" name="category" placeholder="eg:mathematics"
                                autocomplete="off"
                                data-provide="typeahead"
                                data-items="6"
