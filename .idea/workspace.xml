@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/add_books.php" afterPath="$PROJECT_DIR$/resources/add_books.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" name="Default" comment="" />
     <ignored path="E-Library.iws" />
-    <file path="/Dummy.txt" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374593719192" ignored="false" />
+    <file path="/Dummy.txt" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374594613461" ignored="false" />
     <file path="/add_books.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374594450806" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -228,7 +225,11 @@
       <created>1374593724854</created>
       <updated>1374593724854</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&#10;break line added on add_book.php&#10;added typeahead on add_book.php">
+      <created>1374594619578</created>
+      <updated>1374594619578</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -297,7 +298,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;break line added on add_book.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;break line added on add_book.php&#10;added typeahead on add_book.php" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -316,6 +317,7 @@
     <MESSAGE value="deleted .idea file&#10;again deleted .idea /*" />
     <MESSAGE value="deleted .idea file&#10;again deleted .idea /*&#10;removed .idea directory&#10;span 3-9 on add_books.php" />
     <MESSAGE value="&#10;break line added on add_book.php" />
+    <MESSAGE value="&#10;break line added on add_book.php&#10;added typeahead on add_book.php" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
