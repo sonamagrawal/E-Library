@@ -62,10 +62,10 @@ $id_list = '[' . rtrim($id, ",") . ']';
                             </div>
 
                             <div class="control-group">
-                                <label class="control-label">PUBLISHED YEAR</label>
+                                <label clas="control-label">PUBLISHED YEAR</label>
 
                                 <div class="controls">
-                                    <select required name="year">
+                                    <select required class="span3" name="year">
 
                                         <?php
 
