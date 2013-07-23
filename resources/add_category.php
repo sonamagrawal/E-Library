@@ -9,27 +9,28 @@ if (isset($_REQUEST['submit'])) {
 }
 ?>
 <html lang="en">
-    <head>
-        <link href="/public_html/css/bootstrap.css" rel="stylesheet">
-    </head>
-    <body>
+<head>
+    <link href="/public_html/css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
 
-        <form class="well form-horizontal" method="POST">
-            <fieldset>
-                <legend>NEW BOOK</legend>
-                <div class="control-group">
-                    <label class="control-label">CATEGORY</label>
-                    <div class="controls">
-                        <input type="text" class="input-small" name="category" id="category" placeholder="category">
-                    </div>
-                </div>
+<form class="well form-horizontal" method="POST">
+    <fieldset>
+        <legend>NEW BOOK</legend>
+        <div class="control-group">
+            <label class="control-label">CATEGORY</label>
 
-                <div class="form-actions">
-                    <button type="submit" class="btn btn-primary" name="submit">SAVE</button>
-                    <button class="btn">Cancel</button>
-                </div>
+            <div class="controls">
+                <input type="text" class="input-small" name="category" id="category" placeholder="category">
+            </div>
+        </div>
 
-            </fieldset>
-        </form>
-    </body>
+        <div class="form-actions">
+            <button type="submit" class="btn btn-primary" name="submit">SAVE</button>
+            <button class="btn">Cancel</button>
+        </div>
+
+    </fieldset>
+</form>
+</body>
 </html>
