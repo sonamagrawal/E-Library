@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/add_books.php" afterPath="$PROJECT_DIR$/resources/add_books.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/student_record!.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/student_record.php" afterPath="$PROJECT_DIR$/resources/student_record.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="E-Library.iws" />
-    <file path="/Dummy.txt" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374685452392" ignored="false" />
+    <file path="/Dummy.txt" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374687205955" ignored="false" />
     <file path="/add_books.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374685986221" ignored="false" />
-    <file path="/student_record.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374687107173" ignored="false" />
+    <file path="/student_record.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374688735960" ignored="false" />
+    <file path="/student_record!.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374688869301" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +30,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="add_books.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/add_books.php">
+      <file leaf-file-name="books.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/books.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="-0.7096774">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="confirm-return.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/confirm-return.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
@@ -38,10 +48,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="student_record.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="confirm_issue.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/confirm_issue.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="due_clearance.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/due_clearance.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="66" selection-start="1522" selection-end="1639" vertical-scroll-proportion="-13.4838705">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="student_record.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/student_record.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="66" selection-start="3309" selection-end="3309" vertical-scroll-proportion="0.9246575">
+            <state line="102" column="7" selection-start="4511" selection-end="4511" vertical-scroll-proportion="-16.741936">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="student_record!.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/student_record!.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="38" selection-start="658" selection-end="658" vertical-scroll-proportion="0.4965278">
               <folding />
             </state>
           </provider>
@@ -50,7 +87,34 @@
       <file leaf-file-name="book!.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/book!.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="33" selection-start="157" selection-end="157" vertical-scroll-proportion="-0.7096774">
+            <state line="29" column="33" selection-start="1187" selection-end="1187" vertical-scroll-proportion="-15.32258">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="return!.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/return!.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="0" selection-start="1628" selection-end="1628" vertical-scroll-proportion="-16.741936">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clearance!.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/clearance!.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="issued!.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/issued!.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -76,6 +140,7 @@
       <list>
         <option value="$PROJECT_DIR$/resources/add_books.php" />
         <option value="$PROJECT_DIR$/resources/student_record.php" />
+        <option value="$PROJECT_DIR$/resources/student_record!.php" />
       </list>
     </option>
   </component>
@@ -241,7 +306,11 @@
       <created>1374685457599</created>
       <updated>1374685457599</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="changes dne on add_books.php&#10;added option in branch">
+      <created>1374687210858</created>
+      <updated>1374687210858</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -310,7 +379,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes dne on add_books.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes dne on add_books.php&#10;added option in branch" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -337,6 +406,7 @@
     <MESSAGE value="modified add_books.php" />
     <MESSAGE value="Refactoring the code&#10;" />
     <MESSAGE value="changes dne on add_books.php" />
+    <MESSAGE value="changes dne on add_books.php&#10;added option in branch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -344,33 +414,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/return-book.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/book!.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="33" selection-start="1187" selection-end="1187" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/due_clearance.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="66" selection-start="1522" selection-end="1639" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/books.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/clearance!.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/add_books.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="88" column="68" selection-start="2671" selection-end="2671" vertical-scroll-proportion="0.0">
@@ -380,7 +423,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/return-book.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.0" />
+        <state line="30" column="0" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/book!.php">
@@ -392,46 +437,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/due_clearance.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="66" selection-start="1522" selection-end="1639" vertical-scroll-proportion="0.0" />
+        <state line="52" column="66" selection-start="1522" selection-end="1639" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/return-book.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/due_clearance.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="66" selection-start="1522" selection-end="1639" vertical-scroll-proportion="0.0" />
+        <state line="30" column="0" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/books.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" />
+        <state line="4" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="-0.7096774">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/clearance!.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/add_books.php">
+    <entry file="file://$PROJECT_DIR$/resources/confirm-return.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/book!.php">
+    <entry file="file://$PROJECT_DIR$/resources/confirm_issue.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="33" selection-start="157" selection-end="157" vertical-scroll-proportion="-0.7096774">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/due_clearance.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="66" selection-start="1522" selection-end="1639" vertical-scroll-proportion="-13.4838705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/clearance!.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/return!.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="1628" selection-end="1628" vertical-scroll-proportion="-16.741936">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/issued!.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/add_books.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="27" selection-start="4111" selection-end="4446" vertical-scroll-proportion="-13.903226">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/student_record.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="66" selection-start="3309" selection-end="3309" vertical-scroll-proportion="0.9246575">
+        <state line="102" column="7" selection-start="4511" selection-end="4511" vertical-scroll-proportion="-16.741936">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/book!.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="33" selection-start="1187" selection-end="1187" vertical-scroll-proportion="-15.32258">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/student_record!.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="38" selection-start="658" selection-end="658" vertical-scroll-proportion="0.4965278">
           <folding />
         </state>
       </provider>

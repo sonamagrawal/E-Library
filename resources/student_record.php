@@ -93,3 +93,11 @@
 
                                 </div>
                             </div>
+                            <div class="form-actions">
+                                <button type="submit" class="btn btn-success" name="submit">ADD</button>
+                                <button type="reset" class="btn btn-success" name="reset">RESET</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                    </body>
+</html>
