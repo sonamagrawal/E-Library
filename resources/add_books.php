@@ -35,7 +35,6 @@ $id_list = '[' . rtrim($id, ",") . ']';
                 <div class="span12">
                     <form action="book!.php" method="post" class=" form-horizontal">
                         <fieldset>
-
                             <div class="control-group">
                                 <label class="control-label">TITLE</label>
 
@@ -45,40 +44,29 @@ $id_list = '[' . rtrim($id, ",") . ']';
                             </div>
                             <div class="control-group">
                                 <label class="control-label">AUTHOR</label>
-
                                 <div class="controls">
-
                                     <input type="text" required class="span3" name="author" placeholder="eg:abc,xyz">
                                 </div>
                             </div>
-
                             <div class="control-group">
                                 <label class="control-label">COMPANY</label>
-
                                 <div class="controls">
-
                                     <input type="text" required class="span3" name="company" placeholder="company">
                                 </div>
                             </div>
 
                             <div class="control-group">
                                 <label clas="control-label">PUBLISHED YEAR</label>
-
                                 <div class="controls">
-                                    <select required class="span3" name="year">
-
+                                    <select required class="span3" size="1" name="year">
                                         <?php
-
                                         for ($i = 1980; $i < 2014; $i++) {
                                             echo "<option>$i </option>";
                                         }
-
                                         ?>
-
                                     </select>
                                 </div>
                             </div>
-
                             <div class="control-group">
                                 <label class="control-label">NO. OF COPIES</label>
 
@@ -87,11 +75,8 @@ $id_list = '[' . rtrim($id, ",") . ']';
                                            placeholder="1">
                                 </div>
                             </div>
-
-
                             <div class="control-group">
                                 <label class="control-label">CATEGORY</label>
-
                                 <div class="controls">
                                     <input required type="text" class="span3" name="category"
                                            placeholder="eg:mathematics"
