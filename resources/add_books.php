@@ -54,11 +54,10 @@ $id_list = '[' . rtrim($id, ",") . ']';
                                     <input type="text" required class="span3" name="company" placeholder="company">
                                 </div>
                             </div>
-
                             <div class="control-group">
-                                <label clas="control-label">PUBLISHED YEAR</label>
+                                <label class="control-label">PUBLISHED YEAR</label>
                                 <div class="controls">
-                                    <select required class="span3" size="1" name="year">
+                                    <select required class="span3"  name="year">
                                         <?php
                                         for ($i = 1980; $i < 2014; $i++) {
                                             echo "<option>$i </option>";
@@ -67,6 +66,7 @@ $id_list = '[' . rtrim($id, ",") . ']';
                                     </select>
                                 </div>
                             </div>
+
                             <div class="control-group">
                                 <label class="control-label">NO. OF COPIES</label>
 
