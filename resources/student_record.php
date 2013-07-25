@@ -21,7 +21,14 @@
                 <div class="span12">
                     <form action="student_record!.php" method="post" class=" form-horizontal">
                         <fieldset>
+                            <div class="control-group">
+                                <label class="control-label">ROLL NO.</label>
 
+                                <div class="controls">
+
+                                    <input type="text" required class="span3" name="rollno">
+                                </div>
+                            </div>
                             <div class="control-group">
                                 <label class="control-label">FIRST NAME:</label>
 
@@ -47,14 +54,7 @@
                                 </div>
                             </div>
 
-                            <div class="control-group">
-                                <label class="control-label">ROLL NO.</label>
 
-                                <div class="controls">
-
-                                    <input type="text" required class="span3" name="rollno">
-                                </div>
-                            </div>
 
                             <div class="control-group">
                                 <label class="control-label">BRANCH</label>
