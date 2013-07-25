@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/teacher_record.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/teacher_record!.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="E-Library.iws" />
-    <file path="/Dummy.txt" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374754999548" ignored="false" />
+    <file path="/Dummy.txt" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374755592378" ignored="false" />
     <file path="/add_books.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374685986221" ignored="false" />
     <file path="/student_record.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374688735960" ignored="false" />
     <file path="/student_record!.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374688869301" ignored="false" />
     <file path="/teacher_record.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374755561052" ignored="false" />
+    <file path="/teacher_record!.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374756117082" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,21 +70,30 @@
       <file leaf-file-name="student_record!.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/student_record!.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="4" selection-start="563" selection-end="563" vertical-scroll-proportion="-8.5161295">
+            <state line="12" column="4" selection-start="0" selection-end="659" vertical-scroll-proportion="-8.5161295">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="teacher_record.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="teacher_record.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/teacher_record.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="94" selection-start="793" selection-end="793" vertical-scroll-proportion="0.039076377">
+            <state line="21" column="94" selection-start="793" selection-end="793" vertical-scroll-proportion="-0.7096774">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="teacher_record!.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/teacher_record!.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="115" selection-start="522" selection-end="522" vertical-scroll-proportion="0.42984015">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -101,15 +111,6 @@
         <entry file="file://$PROJECT_DIR$/resources/clearance!.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="8" column="31" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="session.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/session.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -146,6 +147,7 @@
         <option value="$PROJECT_DIR$/resources/student_record.php" />
         <option value="$PROJECT_DIR$/resources/student_record!.php" />
         <option value="$PROJECT_DIR$/resources/teacher_record.php" />
+        <option value="$PROJECT_DIR$/resources/teacher_record!.php" />
       </list>
     </option>
   </component>
@@ -327,13 +329,18 @@
       <created>1374754794787</created>
       <updated>1374754794787</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="ADDED TEACHER_RECORD.PHP">
+      <created>1374755596869</created>
+      <updated>1374755596869</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-2" width="1280" height="786" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.041284405" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -348,7 +355,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.041284405" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -396,7 +402,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes dne on add_books.php&#10;added option in branch&#10;added student_record!&#10;edited&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADDED TEACHER_RECORD.PHP" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -426,6 +432,7 @@
     <MESSAGE value="changes dne on add_books.php&#10;added option in branch" />
     <MESSAGE value="changes dne on add_books.php&#10;added option in branch&#10;added student_record!" />
     <MESSAGE value="changes dne on add_books.php&#10;added option in branch&#10;added student_record!&#10;edited&#10;" />
+    <MESSAGE value="ADDED TEACHER_RECORD.PHP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -433,11 +440,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/logout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -514,13 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/student_record!.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="4" selection-start="563" selection-end="563" vertical-scroll-proportion="-8.5161295">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/student_record.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="4511" vertical-scroll-proportion="-0.0">
@@ -530,12 +525,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/teacher_record.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="94" selection-start="793" selection-end="793" vertical-scroll-proportion="0.039076377">
+        <state line="21" column="94" selection-start="793" selection-end="793" vertical-scroll-proportion="-0.7096774">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/student_record!.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="4" selection-start="0" selection-end="659" vertical-scroll-proportion="-8.5161295">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/teacher_record!.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="115" selection-start="522" selection-end="522" vertical-scroll-proportion="0.42984015">
+          <folding />
         </state>
       </provider>
     </entry>
