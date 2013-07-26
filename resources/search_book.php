@@ -86,12 +86,12 @@ include_once("config.php");
 											<td>
 												<div class="form-actions">
 													<button type="RESET" class="btn btn-large btn-primary" name="reset">
-														<i class="icon-refresh"></i> Reset
+														<i class="icon-refresh"></i>Reset
 													</button>
 													<button id="dddd" type="SUBMIT" class="btn btn-large btn-success"
 													        data-loading-text="Searching.."
 													        name="submit">
-														<i class="icon-search"></i> Search
+														<i class="icon-search"></i>Search
 													</button>
 												</div>
 											</td>
