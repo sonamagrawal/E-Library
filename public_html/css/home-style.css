@@ -1,0 +1,27 @@
+.book-view-left {
+    border-left: 3px solid white;
+    box-shadow: -30px 0px 10px rgba(0, 0, 0, 0.8);
+    border-bottom-left-radius: 9px;
+    border-top-left-radius: 9px;
+    border-right: 10px solid #808080;
+    border-bottom: 4px solid white;
+    border-right-style: dotted;
+}
+
+.book-view-left:hover {
+}
+
+.book-view-right {
+    -webkit-transform: translateX(-8%);
+    border-bottom-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border-top-right-radius: 9px;
+    border-right: 20px solid white;
+    border-left: 10px solid brown;
+    border-bottom: 4px solid white;
+    border-left-style: dashed;
+    box-shadow: 30px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+.book-view-right:hover {
+}
