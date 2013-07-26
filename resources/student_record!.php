@@ -7,8 +7,11 @@ $enrollment_no = strtoupper(trim($_POST['enrollmentno']));
 $branch = strtoupper(trim($_POST['branch']));
 $semester = strtoupper(trim($_POST['semester']));
 
-$query="insert into student_record (roll_no,first_name,last_name,enrollment_no,branch,semester)values
+$query = "insert into student_record (roll_no,first_name,last_name,enrollment_no,branch,semester)values
         ('" . $roll_no . "','" . $first_name . "','" . $last_name . "','" . $enrollment_no . "','" .
-	    $branch . "'," . $semester. ")";
-$result=mysql_query("$query");
+	$branch . "'," . $semester . ")";
+mysql_query($query);
+
+$insert_login = "insert into login(user_name, password) values('" . $roll_no . "',md5('" . $enrollment_no . "'))";
+mysql_query($insert_login);
 header("location:student_record.php");
