@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
@@ -9,24 +10,7 @@
 		<div class="container-fluid well">
 			<div class="row-fluid">
 				<div class="span12" style="border:1px solid black;">
-					<div class="span3" style="background-color: darkblue">
-						<br>
-						<br>
-						<br>
-						<br>
-					</div>
-					<div class="span5" style="background-color: darkblue">
-						<br>
-						<br>
-						<br>
-						<br>
-					</div>
-					<div class="span4" style="background-color: darkblue">
-						<br>
-						<br>
-						<br>
-						<br>
-					</div>
+					<img src="/public_html/img/nitrrnew_03.png" width=100%>
 				</div>
 			</div>
 		</div>
@@ -113,3 +97,5 @@
 		</div>
 	</body>
 </html>
+=======
+>>>>>>> content of layout deleted
