@@ -2,14 +2,17 @@
 <?php
 include_once("config.php");
 $issue_id = $_POST['issue'];
-$query = "select issued_books.book_id_no,title,user_id,card_id,return_date from issued_books join books on
-          issued_books.book_id_no = books.book_id_no where issue_code = " . $issue_id . "
-          and returned = 'N' ";
+
+$query = "select issued_books.book_id_no,title,user_name,card_id,return_date from issued_books join books on
+          issued_books.book_id_no = books.book_id_no join login on
+          issued_books.user_id = login.user_id  where issue_code = " . $issue_id . " and returned = 'N' ";
 $result = mysql_query($query);
+
 if (mysql_num_rows($result) == 0) {
 	header("location:javascript://:history.go(-1)");
 }
 $row = mysql_fetch_array($result);
+
 if (date('Y-m-d ', strtotime($row['return_date'])) > date('Y-m-d '))
 	$fine = 0;
 else {
@@ -31,7 +34,7 @@ else {
 				<div class="span9 well" style="border:1px solid black;font-size: 16px">
 					<div class="row-fluid">
 						<div class="span12" style="background-color: #808080">
-							<h2><strong>CONFIRM BOOK ISSUE</strong></h2>
+							<h2><strong>CONFIRM BOOK RETURN</strong></h2>
 						</div>
 					</div>
 					</br>
@@ -46,7 +49,7 @@ else {
 						</div>
 						<div class="row-fluid">
 							<div class="span4">
-								<b>User ID : </b> <?php echo $row['user_id']?>
+								<b>User Name : </b> <?php echo $row['user_name']?>
 							</div>
 							<div class="span4">
 								<b>Card ID : </b> <?php echo $row['card_id']?>
