@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/index.php" afterPath="$PROJECT_DIR$/resources/index.php" />
+    <list default="true" id="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" name="Default" comment="&#10;nav and login final&#10;added backgrond color&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Admin.php" afterPath="$PROJECT_DIR$/resources/Admin.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="E-Library.iws" />
-    <file path="/Dummy.txt" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374937262865" ignored="false" />
+    <file path="/Dummy.txt" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374938324299" ignored="false" />
     <file path="/add_books.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374685986221" ignored="false" />
     <file path="/student_record.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374688735960" ignored="false" />
     <file path="/student_record!.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374688869301" ignored="false" />
@@ -18,7 +18,7 @@
     <file path="/category!.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374868525266" ignored="false" />
     <file path="/header.html" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374937688027" ignored="false" />
     <file path="/login.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374934161199" ignored="false" />
-    <file path="/Admin.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374935304928" ignored="false" />
+    <file path="/Admin.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374938437043" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +134,7 @@
       <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="92" selection-start="1498" selection-end="1498" vertical-scroll-proportion="-11.774194">
+            <state line="5" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="-3.548387">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -176,8 +176,10 @@
       <file leaf-file-name="Admin.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/Admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="13" selection-start="709" selection-end="709" vertical-scroll-proportion="0.58614564">
-              <folding />
+            <state line="19" column="43" selection-start="771" selection-end="771" vertical-scroll-proportion="0.74245113">
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -211,9 +213,9 @@
         <option value="$PROJECT_DIR$/resources/add_category.php" />
         <option value="$PROJECT_DIR$/resources/category!.php" />
         <option value="$PROJECT_DIR$/resources/login.php" />
-        <option value="$PROJECT_DIR$/resources/Admin.php" />
         <option value="$PROJECT_DIR$/resources/index.php" />
         <option value="$PROJECT_DIR$/resources/header.html" />
+        <option value="$PROJECT_DIR$/resources/Admin.php" />
       </list>
     </option>
   </component>
@@ -531,7 +533,11 @@
       <created>1374937268131</created>
       <updated>1374937268131</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="&#10;nav and login final&#10;added backgrond color">
+      <created>1374938213334</created>
+      <updated>1374938213334</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -600,7 +606,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;nav and login final" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;nav and login final&#10;added backgrond color" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -614,7 +620,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="&#10;break line added on add_book.php&#10;added typeahead on add_book.php" />
     <MESSAGE value="added placeholder on add_books.php" />
     <MESSAGE value="added placeholder on add_books.php&#10;modified placeholder on add_books.php" />
     <MESSAGE value="&#10;modified add_books.php&#10;" />
@@ -639,6 +644,7 @@
     <MESSAGE value="&#10;arrow alignment" />
     <MESSAGE value="&#10;arrow alignment&#10;changed nav" />
     <MESSAGE value="&#10;nav and login final" />
+    <MESSAGE value="&#10;nav and login final&#10;added backgrond color" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -746,37 +752,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/add_category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="7" selection-start="478" selection-end="1152" vertical-scroll-proportion="-16.741936">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/logout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="3" selection-start="3337" selection-end="3337" vertical-scroll-proportion="-0.7096774">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="92" selection-start="1498" selection-end="1498" vertical-scroll-proportion="-11.774194">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -809,10 +788,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="3" selection-start="3337" selection-end="3337" vertical-scroll-proportion="-0.7096774">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/add_category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="7" selection-start="478" selection-end="1152" vertical-scroll-proportion="-16.741936">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="-3.548387">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/Admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="709" selection-end="709" vertical-scroll-proportion="0.58614564">
-          <folding />
+        <state line="19" column="43" selection-start="771" selection-end="771" vertical-scroll-proportion="0.74245113">
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

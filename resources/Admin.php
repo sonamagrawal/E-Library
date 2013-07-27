@@ -17,7 +17,7 @@ include_once("config.php");
 			}
 		</script>
 	</head>
-	<body>
+	<body style="background-color: #ffffcc;">
 		<?php
 		include_once('header.html');
 		?>
