@@ -3,3 +3,9 @@
     background-color: blue;
     color: #ffffff;
 }
+.highlight i{
+    -webkit-transform: translateX( 140px ) ;
+    -moz-transform: translateX( 140px ) );
+    -o-transform: translateX( 140px ));
+    transform: translateX( 140px ));
+}
