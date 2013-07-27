@@ -3,10 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/add_books.php" afterPath="$PROJECT_DIR$/resources/add_books.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/add_category.php" afterPath="$PROJECT_DIR$/resources/add_category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/admin_record.php" afterPath="$PROJECT_DIR$/resources/admin_record.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/student_record.php" afterPath="$PROJECT_DIR$/resources/student_record.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/teacher_record.php" afterPath="$PROJECT_DIR$/resources/teacher_record.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="E-Library.iws" />
-    <file path="/Dummy.txt" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374959781543" ignored="false" />
+    <file path="/Dummy.txt" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374960204450" ignored="false" />
     <file path="/add_books.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374960152130" ignored="false" />
     <file path="/student_record.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374688735960" ignored="false" />
     <file path="/student_record!.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374688869301" ignored="false" />
@@ -42,6 +46,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="admin_record.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/admin_record.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="74" column="30" selection-start="3512" selection-end="3512" vertical-scroll-proportion="-9.806452">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="student_record.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/student_record.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="87" column="28" selection-start="4328" selection-end="4328" vertical-scroll-proportion="-3.419355">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="teacher_record.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/teacher_record.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="86" column="30" selection-start="4394" selection-end="4394" vertical-scroll-proportion="0.87356323">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/index.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,46 +114,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin_record!.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/admin_record!.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="add_category.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/add_category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="7" selection-start="478" selection-end="1152" vertical-scroll-proportion="-8.645162">
+            <state line="12" column="18" selection-start="480" selection-end="480" vertical-scroll-proportion="-0.7096774">
               <folding>
-                <marker date="1374907767676" expanded="true" signature="31:1151" placeholder="..." />
-                <marker date="1374907767676" expanded="true" signature="39:203" placeholder="..." />
-                <marker date="1374907767676" expanded="true" signature="211:1143" placeholder="..." />
-                <marker date="1374907767676" expanded="true" signature="243:1134" placeholder="..." />
-                <marker date="1374907767676" expanded="false" signature="279:301" placeholder="..." />
-                <marker date="1374907767676" expanded="true" signature="302:1125" placeholder="..." />
-                <marker date="1374907767676" expanded="true" signature="330:462" placeholder="..." />
-                <marker date="1374907767676" expanded="false" signature="364:389" placeholder="..." />
-                <marker date="1374907767676" expanded="true" signature="390:451" placeholder="..." />
-                <marker date="1374907767676" expanded="true" signature="500:1115" placeholder="..." />
-                <marker date="1374907767676" expanded="true" signature="526:1104" placeholder="..." />
-                <marker date="1374907767676" expanded="true" signature="601:1092" placeholder="..." />
-                <marker date="1374907767676" expanded="true" signature="619:1078" placeholder="..." />
-                <marker date="1374907767676" expanded="true" signature="655:845" placeholder="..." />
-                <marker date="1374907767676" expanded="true" signature="749:830" placeholder="..." />
-                <marker date="1374907767676" expanded="true" signature="880:1059" placeholder="..." />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="book-in-hand.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/book-in-hand.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="78" selection-start="1216" selection-end="1216" vertical-scroll-proportion="-2.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -127,10 +135,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add_books.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="add_books.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/add_books.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="112" column="28" selection-start="4819" selection-end="4819" vertical-scroll-proportion="0.87356323">
+            <state line="103" column="30" selection-start="3848" selection-end="4592" vertical-scroll-proportion="-6.967742">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -161,20 +169,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Admin.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/Admin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -193,12 +187,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/resources/teacher_record.php" />
-        <option value="$PROJECT_DIR$/resources/teacher_record!.php" />
-        <option value="$PROJECT_DIR$/resources/admin_record.php" />
         <option value="$PROJECT_DIR$/resources/admin_record!.php" />
         <option value="$PROJECT_DIR$/resources/index.html" />
-        <option value="$PROJECT_DIR$/resources/add_category.php" />
         <option value="$PROJECT_DIR$/resources/category!.php" />
         <option value="$PROJECT_DIR$/resources/profile.php" />
         <option value="$PROJECT_DIR$/resources/login.php" />
@@ -208,7 +198,11 @@
         <option value="$PROJECT_DIR$/resources/header.html" />
         <option value="$PROJECT_DIR$/resources/nav.html" />
         <option value="$PROJECT_DIR$/resources/index.php" />
+        <option value="$PROJECT_DIR$/resources/add_category.php" />
         <option value="$PROJECT_DIR$/resources/add_books.php" />
+        <option value="$PROJECT_DIR$/resources/admin_record.php" />
+        <option value="$PROJECT_DIR$/resources/student_record.php" />
+        <option value="$PROJECT_DIR$/resources/teacher_record.php" />
       </list>
     </option>
   </component>
@@ -544,7 +538,11 @@
       <created>1374959787038</created>
       <updated>1374959787038</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="button final">
+      <created>1374960209286</created>
+      <updated>1374960209286</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -613,7 +611,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="button edited" />
+    <option name="LAST_COMMIT_MESSAGE" value="button final" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -627,7 +625,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="changes dne on add_books.php&#10;added option in branch&#10;added student_record!" />
     <MESSAGE value="changes dne on add_books.php&#10;added option in branch&#10;added student_record!&#10;edited&#10;" />
     <MESSAGE value="ADDED TEACHER_RECORD.PHP" />
     <MESSAGE value="ADDED TEACHER_RECORD.PHP&#10;added" />
@@ -652,6 +649,7 @@
     <MESSAGE value="timezone set" />
     <MESSAGE value="placeholder edited" />
     <MESSAGE value="button edited" />
+    <MESSAGE value="button final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -659,74 +657,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-          <folding>
-            <marker date="1374954057208" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374954057208" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374954057208" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374954057208" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1374954057208" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374954057208" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374954057208" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374954057208" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374954057208" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1374954057208" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374954057208" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374954057208" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1374954057208" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374954057208" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1374954057208" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374954057208" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374954057208" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374954057208" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374954057208" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374954057208" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374954057208" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374954057208" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374954057208" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374954057208" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374954057208" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374954057208" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374954057208" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374954057208" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/return-book.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1374907767735" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374907767735" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374907767735" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374907767735" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374907767735" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1374907767735" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374907767735" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374907767735" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1374907767735" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374907767735" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374907767735" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374907767735" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374907767735" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1374907767735" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/confirm-return.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="7" selection-start="2837" selection-end="2837" vertical-scroll-proportion="-61.032257">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public_html/img/glyphicons-halflings-white.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -740,30 +670,6 @@
     <entry file="file://$PROJECT_DIR$/public_html/img/e_library_logo.gif">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/add_category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="7" selection-start="478" selection-end="1152" vertical-scroll-proportion="-8.645162">
-          <folding>
-            <marker date="1374907767676" expanded="true" signature="31:1151" placeholder="..." />
-            <marker date="1374907767676" expanded="true" signature="39:203" placeholder="..." />
-            <marker date="1374907767676" expanded="true" signature="211:1143" placeholder="..." />
-            <marker date="1374907767676" expanded="true" signature="243:1134" placeholder="..." />
-            <marker date="1374907767676" expanded="false" signature="279:301" placeholder="..." />
-            <marker date="1374907767676" expanded="true" signature="302:1125" placeholder="..." />
-            <marker date="1374907767676" expanded="true" signature="330:462" placeholder="..." />
-            <marker date="1374907767676" expanded="false" signature="364:389" placeholder="..." />
-            <marker date="1374907767676" expanded="true" signature="390:451" placeholder="..." />
-            <marker date="1374907767676" expanded="true" signature="500:1115" placeholder="..." />
-            <marker date="1374907767676" expanded="true" signature="526:1104" placeholder="..." />
-            <marker date="1374907767676" expanded="true" signature="601:1092" placeholder="..." />
-            <marker date="1374907767676" expanded="true" signature="619:1078" placeholder="..." />
-            <marker date="1374907767676" expanded="true" signature="655:845" placeholder="..." />
-            <marker date="1374907767676" expanded="true" signature="749:830" placeholder="..." />
-            <marker date="1374907767676" expanded="true" signature="880:1059" placeholder="..." />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/admin_record!.php">
@@ -845,9 +751,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/add_category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="18" selection-start="480" selection-end="480" vertical-scroll-proportion="-0.7096774">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/add_books.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="28" selection-start="4819" selection-end="4819" vertical-scroll-proportion="0.87356323">
+        <state line="103" column="30" selection-start="3848" selection-end="4592" vertical-scroll-proportion="-6.967742">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/admin_record.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="30" selection-start="3512" selection-end="3512" vertical-scroll-proportion="-9.806452">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/student_record.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="28" selection-start="4328" selection-end="4328" vertical-scroll-proportion="-3.419355">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/teacher_record.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="30" selection-start="4394" selection-end="4394" vertical-scroll-proportion="0.87356323">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />

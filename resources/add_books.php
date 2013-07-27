@@ -87,7 +87,7 @@ $id_list = '[' . rtrim($id, ",") . ']';
                                        data-source='<?php echo $id_list ?>'>
                             </div>
                         </div>
-                        <hr>
+
                         <div class="form-actions">
 
                             <button type="submit" class="btn btn-success btn-large"
