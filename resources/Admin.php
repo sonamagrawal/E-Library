@@ -8,7 +8,6 @@ include_once("config.php");
 		<link href="/public_html/css/bootstrap.css" type="text/css" rel="stylesheet">
 		<link href="/public_html/css/bootstrap-responsive.css" type="text/css" rel="stylesheet">
 		<link href="/public_html/css/highlight.css" type="text/css" rel="stylesheet">
-		<!--		<script src="/public_html/js/bootstrap-transition.js"></script>-->
 		<script src="/public_html/jquery/jquery.js"></script>
 		<script src="/public_html/js/bootstrap-collapse.js"></script>
 		<script language="JavaScript" type="text/javascript">
@@ -16,8 +15,7 @@ include_once("config.php");
 				document.getElementById('top-content-box').src = page + ".php";
 			}
 		</script>
-
-
+		<script src="/public_html/js/bootstrap-modal.js"></script>
 	</head>
 	<body style="background-color: #ffffcc;">
 		<?php
