@@ -6,8 +6,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="E-Library.iws" />
-    <file path="/Dummy.txt" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374957569832" ignored="false" />
-    <file path="/add_books.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374959731205" ignored="false" />
+    <file path="/Dummy.txt" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374959781543" ignored="false" />
+    <file path="/add_books.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374960152130" ignored="false" />
     <file path="/student_record.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374688735960" ignored="false" />
     <file path="/student_record!.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374688869301" ignored="false" />
     <file path="/teacher_record.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374755561052" ignored="false" />
@@ -130,7 +130,7 @@
       <file leaf-file-name="add_books.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/add_books.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="87" selection-start="4035" selection-end="4035" vertical-scroll-proportion="0.65229887">
+            <state line="112" column="28" selection-start="4819" selection-end="4819" vertical-scroll-proportion="0.87356323">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -540,7 +540,11 @@
       <created>1374957575595</created>
       <updated>1374957575595</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="button edited">
+      <created>1374959787038</created>
+      <updated>1374959787038</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -609,7 +613,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="placeholder edited" />
+    <option name="LAST_COMMIT_MESSAGE" value="button edited" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -623,7 +627,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="changes dne on add_books.php&#10;added option in branch" />
     <MESSAGE value="changes dne on add_books.php&#10;added option in branch&#10;added student_record!" />
     <MESSAGE value="changes dne on add_books.php&#10;added option in branch&#10;added student_record!&#10;edited&#10;" />
     <MESSAGE value="ADDED TEACHER_RECORD.PHP" />
@@ -648,6 +651,7 @@
     <MESSAGE value="nav improved" />
     <MESSAGE value="timezone set" />
     <MESSAGE value="placeholder edited" />
+    <MESSAGE value="button edited" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -843,7 +847,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/add_books.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="87" selection-start="4035" selection-end="4035" vertical-scroll-proportion="0.65229887">
+        <state line="112" column="28" selection-start="4819" selection-end="4819" vertical-scroll-proportion="0.87356323">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />

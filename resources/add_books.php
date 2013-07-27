@@ -88,25 +88,20 @@ $id_list = '[' . rtrim($id, ",") . ']';
                             </div>
                         </div>
                         <hr>
-                        <div class="row-fluid">
-                            <div class="span3">
-                                <button  type="submit" class="btn btn-success btn-large"
-                                        name="submit"><i class="icon-plus-sign"></i>ADD
-                                </button>
-                            </div>
-                            <div class="span3">
-                                <button type="reset" class="btn btn-inverse btn-large" name="reset"><i class="icon-refresh"></i>RESET
-                                </button>
-                            </div>
-                            <div class="span3">
-                                <button type="button" class="btn btn-large btn-warning" name="cancel"
-                                        onclick="javascript:history.go(-1)">
-                                    <i class="icon-remove"></i>CANCEL
-                                </button>
-                            </div>
+                        <div class="form-actions">
+
+                            <button type="submit" class="btn btn-success btn-large"
+                                    name="submit"><i class="icon-plus-sign"></i>ADD
+                            </button>
+                            <button type="reset" class="btn btn-inverse btn-large" name="reset"><i
+                                    class="icon-refresh"></i>RESET
+                            </button>
+                            <button type="button" class="btn btn-large btn-warning" name="cancel"
+                                    onclick="javascript:history.go(-1)">
+                                <i class="icon-remove"></i>CANCEL
+                            </button>
+
                         </div>
-
-
                     </fieldset>
                 </form>
             </div>
