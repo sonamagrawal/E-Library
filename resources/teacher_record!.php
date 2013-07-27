@@ -11,7 +11,7 @@ $query = "insert into teacher_record (employee_no,first_name,last_name,departmen
 		 $designation . "')";
 mysql_query("$query");
 
-$insert_login = "insert into login(user_name, password) values('" . $employee_no . "',
+$insert_login = "insert into login(user_name,user_type, password) values('" . $employee_no . "','T',
 				 md5('" . $employee_no . "'))";
 mysql_query($insert_login);
 $user_id = mysql_insert_id() ;
