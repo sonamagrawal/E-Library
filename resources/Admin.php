@@ -120,11 +120,11 @@ include_once("config.php");
 
 					</div>
 				</div>
-				<div class="span9" style="border:1px solid black">
+				<div class="span9" >
 					<div class="row-fluid">
 						<div class="span12">
 							<iframe src="/resources/search_book.php" frameborder="0" height="600px"
-							        width="600px" seamless id="top-content-box"
+							        width="1000px" seamless id="top-content-box"
 							        name="content-box" scrolling="no" sandbox="allow-forms allow-scripts">
 <!--								<p>Your browser does not support iframes.</p>-->
 							</iframe>
