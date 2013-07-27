@@ -19,7 +19,7 @@ $result_fine = mysql_query($fine_query);
 		<title> E-LIBRARY |DASHBOARD </title>
 		<link href="/public_html/css/bootstrap.css" type="text/css" rel="stylesheet">
 		<link href="/public_html/css/bootstrap-responsive.css" type="text/css" rel="stylesheet">
-		<!--		<script src="/public_html/js/bootstrap-transition.js"></script>-->
+		<link href="/public_html/css/highlight.css" type="text/css" rel="stylesheet">
 		<script src="/public_html/jquery/jquery.js"></script>
 		<script src="/public_html/js/bootstrap-collapse.js"></script>
 	</head>
@@ -34,8 +34,8 @@ $result_fine = mysql_query($fine_query);
 						<div class="span12 text-center" style="background-color: blue">
 							<h4 style="color: #ffffff">Dash Board</h4>
 						</div>
-
-						<div class="accordion" id="accordion2">
+						<hr>
+						<div class="accordion highlight" id="accordion2">
 							<div class="accordion-group">
 								<div class="accordion-heading">
 									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
