@@ -23,8 +23,9 @@ if (mysql_num_rows($result) == 0) {
 	$result1 = mysql_query($insert_new_category);
 	$id = mysql_insert_id();
 	insert_book($id);
+	header("location:add_books.php?m=2");
 } else {
 	$row = mysql_fetch_array($result);
 	insert_book($row['category_id']);
+	header("location:add_books.php?m=1");
 }
-header("location:add_books.php");
