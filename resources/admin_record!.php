@@ -11,6 +11,7 @@ $query = "insert into Admin_record (employee_no,first_name,last_name,department,
 		  $designation . "')";
 mysql_query("$query");
 
-$insert_login = "insert into login(user_name, password) values('" . $employee_no . "',md5('" . $employee_no . "'))";
+$insert_login = "insert into login(user_name,user_type, password) values('" . $employee_no . "','A'
+,md5('" . $employee_no . "'))";
 mysql_query($insert_login);
 header("location:admin_record.php");
