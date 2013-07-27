@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" name="Default" comment="">
+    <list default="true" id="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" name="Default" comment="button icons added">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/header.html" afterPath="$PROJECT_DIR$/resources/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/index.php" afterPath="$PROJECT_DIR$/resources/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="E-Library.iws" />
-    <file path="/Dummy.txt" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374940261233" ignored="false" />
+    <file path="/Dummy.txt" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374950622152" ignored="false" />
     <file path="/add_books.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374685986221" ignored="false" />
     <file path="/student_record.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374688735960" ignored="false" />
     <file path="/student_record!.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374688869301" ignored="false" />
@@ -15,9 +17,9 @@
     <file path="/index.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374937993872" ignored="false" />
     <file path="/add_category.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374868144036" ignored="false" />
     <file path="/category!.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374868525266" ignored="false" />
-    <file path="/header.html" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374944476070" ignored="false" />
+    <file path="/header.html" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374951258615" ignored="false" />
     <file path="/login.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374940208901" ignored="false" />
-    <file path="/Admin.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374939611040" ignored="false" />
+    <file path="/Admin.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374950320800" ignored="false" />
     <file path="/profile.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374938687957" ignored="false" />
     <file path="/book-in-hand.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374948184635" ignored="false" />
     <file path="/confirm-return.php" changelist="b6fe7ad0-1807-44b2-9860-0f27b31bffe8" time="1374946935584" ignored="false" />
@@ -43,7 +45,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="26" selection-start="1343" selection-end="1343" vertical-scroll-proportion="-17.419355">
+            <state line="152" column="39" selection-start="4242" selection-end="4242" vertical-scroll-proportion="-9.806452">
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -60,6 +62,13 @@
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="background.jpg" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/img/background.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -87,30 +96,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="book-in-hand.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="book-in-hand.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/book-in-hand.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="59" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.3678161">
+            <state line="40" column="59" selection-start="1292" selection-end="1292" vertical-scroll-proportion="-4.129032">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="add_books.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/add_books.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="10" selection-start="153" selection-end="153" vertical-scroll-proportion="-3.548387">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search_book.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/search_book.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="0" selection-start="2516" selection-end="2516" vertical-scroll-proportion="8.935484">
+            <state line="19" column="87" selection-start="745" selection-end="745" vertical-scroll-proportion="0.5574713">
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,32 +134,6 @@
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add_category.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/add_category.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="7" selection-start="478" selection-end="1152" vertical-scroll-proportion="-16.741936">
-              <folding>
-                <marker date="1374907767676" expanded="true" signature="31:1151" placeholder="..." />
-                <marker date="1374907767676" expanded="true" signature="39:203" placeholder="..." />
-                <marker date="1374907767676" expanded="true" signature="211:1143" placeholder="..." />
-                <marker date="1374907767676" expanded="true" signature="243:1134" placeholder="..." />
-                <marker date="1374907767676" expanded="true" signature="279:301" placeholder="..." />
-                <marker date="1374907767676" expanded="true" signature="302:1125" placeholder="..." />
-                <marker date="1374907767676" expanded="true" signature="330:462" placeholder="..." />
-                <marker date="1374907767676" expanded="true" signature="364:389" placeholder="..." />
-                <marker date="1374907767676" expanded="true" signature="390:451" placeholder="..." />
-                <marker date="1374907767676" expanded="true" signature="500:1115" placeholder="..." />
-                <marker date="1374907767676" expanded="true" signature="526:1104" placeholder="..." />
-                <marker date="1374907767676" expanded="true" signature="601:1092" placeholder="..." />
-                <marker date="1374907767676" expanded="true" signature="619:1078" placeholder="..." />
-                <marker date="1374907767676" expanded="true" signature="655:845" placeholder="..." />
-                <marker date="1374907767676" expanded="true" signature="749:830" placeholder="..." />
-                <marker date="1374907767676" expanded="true" signature="880:1059" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -230,7 +215,7 @@
       <file leaf-file-name="Admin.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/Admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="20" selection-start="1187" selection-end="1187" vertical-scroll-proportion="-13.096774">
+            <state line="134" column="97" selection-start="6813" selection-end="6813" vertical-scroll-proportion="-5.548387">
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -268,13 +253,13 @@
         <option value="$PROJECT_DIR$/resources/index.html" />
         <option value="$PROJECT_DIR$/resources/add_category.php" />
         <option value="$PROJECT_DIR$/resources/category!.php" />
-        <option value="$PROJECT_DIR$/resources/index.php" />
         <option value="$PROJECT_DIR$/resources/profile.php" />
-        <option value="$PROJECT_DIR$/resources/Admin.php" />
         <option value="$PROJECT_DIR$/resources/login.php" />
-        <option value="$PROJECT_DIR$/resources/header.html" />
         <option value="$PROJECT_DIR$/resources/confirm-return.php" />
         <option value="$PROJECT_DIR$/resources/book-in-hand.php" />
+        <option value="$PROJECT_DIR$/resources/index.php" />
+        <option value="$PROJECT_DIR$/resources/Admin.php" />
+        <option value="$PROJECT_DIR$/resources/header.html" />
       </list>
     </option>
   </component>
@@ -612,7 +597,11 @@
       <created>1374940265753</created>
       <updated>1374940265753</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="button icons added">
+      <created>1374948736677</created>
+      <updated>1374948736677</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -727,20 +716,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/issued!.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/confirm_issue.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="86" column="7" selection-start="3895" selection-end="3895" vertical-scroll-proportion="0.0">
@@ -808,34 +783,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="7" selection-start="478" selection-end="1152" vertical-scroll-proportion="-16.741936">
           <folding>
-            <marker date="1374907767676" expanded="true" signature="31:1151" placeholder="..." />
-            <marker date="1374907767676" expanded="true" signature="39:203" placeholder="..." />
-            <marker date="1374907767676" expanded="true" signature="211:1143" placeholder="..." />
-            <marker date="1374907767676" expanded="true" signature="243:1134" placeholder="..." />
-            <marker date="1374907767676" expanded="true" signature="279:301" placeholder="..." />
-            <marker date="1374907767676" expanded="true" signature="302:1125" placeholder="..." />
-            <marker date="1374907767676" expanded="true" signature="330:462" placeholder="..." />
-            <marker date="1374907767676" expanded="true" signature="364:389" placeholder="..." />
-            <marker date="1374907767676" expanded="true" signature="390:451" placeholder="..." />
-            <marker date="1374907767676" expanded="true" signature="500:1115" placeholder="..." />
-            <marker date="1374907767676" expanded="true" signature="526:1104" placeholder="..." />
-            <marker date="1374907767676" expanded="true" signature="601:1092" placeholder="..." />
-            <marker date="1374907767676" expanded="true" signature="619:1078" placeholder="..." />
-            <marker date="1374907767676" expanded="true" signature="655:845" placeholder="..." />
-            <marker date="1374907767676" expanded="true" signature="749:830" placeholder="..." />
-            <marker date="1374907767676" expanded="true" signature="880:1059" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/Admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="20" selection-start="1187" selection-end="1187" vertical-scroll-proportion="-13.096774">
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1374907767676" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1374907767676" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1374907767676" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1374907767676" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1374907767676" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1374907767676" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1374907767676" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1374907767676" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1374907767676" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1374907767676" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1374907767676" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1374907767676" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1374907767676" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1374907767676" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1374907767676" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1374907767676" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -855,34 +818,6 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="10" selection-start="153" selection-end="153" vertical-scroll-proportion="-3.548387">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="26" selection-start="1343" selection-end="1343" vertical-scroll-proportion="-17.419355">
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -980,8 +915,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/book-in-hand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="59" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.3678161">
+        <state line="40" column="59" selection-start="1292" selection-end="1292" vertical-scroll-proportion="-4.129032">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/add_books.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/img/background.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="39" selection-start="4242" selection-end="4242" vertical-scroll-proportion="-9.806452">
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="97" selection-start="6813" selection-end="6813" vertical-scroll-proportion="-5.548387">
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="87" selection-start="745" selection-end="745" vertical-scroll-proportion="0.5574713">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
