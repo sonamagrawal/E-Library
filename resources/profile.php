@@ -15,88 +15,140 @@ $fine_query = "select title,author,returned_on,return_date,fine_detail.fine as f
 $result_fine = mysql_query($fine_query);
 ?>
 <html>
-    <head>
-        <title> E-LIBRARY |DASHBOARD </title>
-        <link href="/public_html/css/bootstrap.css" type="text/css" rel="stylesheet">
-        <link href="/public_html/css/bootstrap-responsive.css" type="text/css" rel="stylesheet">
-    </head>
-    <body>
-        <div class="container-fluid">
-            <div class="row-fluid">
+	<head>
+		<title> E-LIBRARY |DASHBOARD </title>
+		<link href="/public_html/css/bootstrap.css" type="text/css" rel="stylesheet">
+		<link href="/public_html/css/bootstrap-responsive.css" type="text/css" rel="stylesheet">
+		<!--		<script src="/public_html/js/bootstrap-transition.js"></script>-->
+		<script src="/public_html/jquery/jquery.js"></script>
+		<script src="/public_html/js/bootstrap-collapse.js"></script>
+	</head>
+	<body>
+		<?php
+		include_once('header.html');
+		?>
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<div class="span3" style="border:1px solid black">
+					<div class="row-fluid">
+						<div class="span12 text-center" style="background-color: blue">
+							<h4 style="color: #ffffff">Dash Board</h4>
+						</div>
 
-                <div class="span3" style="border:1px solid black">
-                    <div class="row-fluid">
-                        <div class="span12">PROFILE</div>
-                    </div>
-                </div>
+						<div class="accordion" id="accordion2">
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
+									   href="#collapseOne">
+										Search Books
+									</a>
+								</div>
+								<div id="collapseOne" class="accordion-body collapse" style="height: 0px; ">
+									<div class="accordion-inner">
+										Search Books
+									</div>
+								</div>
+							</div>
 
-                <div class="span9" style="border:1px solid black">
-                    <div class="row-fluid">
-                        <div class="span12">
-                            <table class="table table-hover">
-                                <caption><i class="icon-book"></i> BOOKS IN HAND</caption>
-                                <thead style="background: peru">
-                                    <tr>
-                                        <th>#</th>
-                                        <th>Title</th>
-                                        <th>Author</th>
-                                        <th>Company</th>
-                                        <th>Published On</th>
-                                        <th>Issued-Date</th>
-                                        <th>Return-Date</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <?php $counter = 0;
-                                    while ($row = mysql_fetch_array($result)) {
-                                        $counter++;
-                                        $status = date('Y-m-d ', strtotime($row['return_date'])) < date('Y-m-d ') ? 'warning' : 'success';
-                                        echo "<tr class='" . $status . "'>
-                                            <td>" . $counter . "</td>
-                                            <td>" . $row['title'] . "</td>
-                                            <td>" . $row['author'] . "</td>
-                                            <td>" . $row['company'] . "</td>
-                                            <td>" . $row['published_year'] . "</td>
-                                            <td>" . $row['issued_date'] . "</td>
-                                            <td>" . $row['return_date'] . "</td>
-                                            </tr>";
-                                    }?>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="row-fluid">
-                        <div class="span12">
-                            <table class="table table-hover">
-                                <caption><i class="icon-warning-sign"></i> FINE</caption>
-                                <thead style="background: peru">
-                                    <tr>
-                                        <th>#</th>
-                                        <th>Title</th>
-                                        <th>Author</th>
-                                        <th>Return Date</th>
-                                        <th>Returned On</th>
-                                        <th>Fine</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <?php $counter = 0;
-                                    while ($row1 = mysql_fetch_array($result_fine)) {
-                                        $counter++;
-                                        echo "<tr class='warning'>
-                                            <td>" . $counter . "</td>
-                                            <td>" . $row1['title'] . "</td>
-                                            <td>" . $row1['author'] . "</td>
-                                            <td>" . $row1['return_date'] . "</td>
-                                            <td>" . $row1['returned_on'] . "</td>
-                                            <td>" . $row1['fine'] . "</td>
-                                            </tr>";
-                                    }?>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </body>
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
+									   href="#collapseTwo">
+										Books In Hand
+									</a>
+								</div>
+								<div id="collapseTwo" class="accordion-body collapse">
+									<div class="accordion-inner">
+										Books In Hand
+									</div>
+								</div>
+							</div>
+
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
+									   href="#collapseThree">
+										Fine Detail
+									</a>
+								</div>
+								<div id="collapseThree" class="accordion-body collapse">
+									<div class="accordion-inner">
+										Fine Detail
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="span9" style="border:1px solid black">
+					<div class="row-fluid">
+						<div class="span12">
+							<table class="table table-hover">
+								<caption><i class="icon-book"></i> BOOKS IN HAND</caption>
+								<thead style="background: peru">
+									<tr>
+										<th>#</th>
+										<th>Title</th>
+										<th>Author</th>
+										<th>Company</th>
+										<th>Published On</th>
+										<th>Issued-Date</th>
+										<th>Return-Date</th>
+									</tr>
+								</thead>
+								<tbody>
+									<?php $counter = 0;
+									while ($row = mysql_fetch_array($result)) {
+										$counter++;
+										$status = date('Y-m-d ', strtotime($row['return_date'])) < date('Y-m-d ') ? 'warning' : 'success';
+										echo "<tr class='" . $status . "'>
+				                                            <td>" . $counter . "</td>
+				                                            <td>" . $row['title'] . "</td>
+				                                            <td>" . $row['author'] . "</td>
+				                                            <td>" . $row['company'] . "</td>
+				                                            <td>" . $row['published_year'] . "</td>
+				                                            <td>" . $row['issued_date'] . "</td>
+				                                            <td>" . $row['return_date'] . "</td>
+				                                            </tr>";
+									}?>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="row-fluid">
+						<div class="span12">
+							<table class="table table-hover">
+								<caption><i class="icon-warning-sign"></i> FINE</caption>
+								<thead style="background: peru">
+									<tr>
+										<th>#</th>
+										<th>Title</th>
+										<th>Author</th>
+										<th>Return Date</th>
+										<th>Returned On</th>
+										<th>Fine</th>
+									</tr>
+								</thead>
+								<tbody>
+									<?php $counter = 0;
+									while ($row1 = mysql_fetch_array($result_fine)) {
+										$counter++;
+										echo "<tr class='warning'>
+				                                            <td>" . $counter . "</td>
+				                                            <td>" . $row1['title'] . "</td>
+				                                            <td>" . $row1['author'] . "</td>
+				                                            <td>" . $row1['return_date'] . "</td>
+				                                            <td>" . $row1['returned_on'] . "</td>
+				                                            <td>" . $row1['fine'] . "</td>
+				                                            </tr>";
+									}?>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
