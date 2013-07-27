@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
-<?php
+<?php   ini_alter('date.timezone','Asia/Calcutta');
+
 include_once("config.php");
 $issue_id = $_POST['issue'];
 

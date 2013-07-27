@@ -35,7 +35,8 @@ $result = mysql_query($query);
 							</tr>
 						</thead>
 						<tbody>
-							<?php $counter = 0;
+							<?php  ini_alter('date.timezone','Asia/Calcutta');
+                            $counter = 0;
 							while ($row = mysql_fetch_array($result)) {
 								$counter++;
 								$status = date('Y-m-d ', strtotime($row['return_date'])) < date('Y-m-d ') ? 'warning' : 'success';
