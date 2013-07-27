@@ -15,6 +15,7 @@ include_once("config.php");
 				document.getElementById('top-content-box').src = page + ".php";
 			}
 		</script>
+		<script src="/public_html/js/bootstrap-modal.js"></script>
 	</head>
 	<body style="background-color: #ffffcc;">
 		<?php
