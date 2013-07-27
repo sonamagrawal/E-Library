@@ -11,18 +11,20 @@ $result = mysql_query($query);
 ?>
 <html>
 	<head>
-		<title> E-LIBRARY |BOOK </title>
+		<!--		<title> E-LIBRARY |BOOK </title>-->
 		<link href="/public_html/css/bootstrap.css" type="text/css" rel="stylesheet">
 		<link href="/public_html/css/bootstrap-responsive.css" type="text/css" rel="stylesheet">
 	</head>
 	<body>
 		<div class="container-fluid">
 			<div class="row-fluid">
-				<div class="span3" style="border:1px solid black">
+				<div class="span12" style="background-color: #808080">
+					<h2><strong>SEARCHED BOOKS</strong></h2>
 				</div>
-				<div class="span9" style="border:1px solid black">
+			</div>
+			<div class="row-fluid">
+				<div class="span12 well">
 					<table class="table table-striped">
-						<caption><i class="icon-tags"></i> Matched Result</caption>
 						<thead style="background: peru">
 							<tr>
 								<th>#</th>
