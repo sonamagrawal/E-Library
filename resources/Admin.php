@@ -11,6 +11,11 @@ include_once("config.php");
 		<!--		<script src="/public_html/js/bootstrap-transition.js"></script>-->
 		<script src="/public_html/jquery/jquery.js"></script>
 		<script src="/public_html/js/bootstrap-collapse.js"></script>
+		<script language="JavaScript" type="text/javascript">
+			function changeFrame(page){
+				document.getElementById('top-content-box').src = page + ".php";
+			}
+		</script>
 	</head>
 	<body>
 		<?php
@@ -28,7 +33,7 @@ include_once("config.php");
 							<div class="accordion-group ">
 								<div class="accordion-heading">
 									<a class="accordion-toggle" data-toggle="" data-parent="#accordion2"
-									   href="#">
+									   href="#" id="search_book" onClick="changeFrame(this.id)">
 										Search Books &nbsp
 										<i class="icon-chevron-right"></i>
 									</a>
@@ -42,62 +47,62 @@ include_once("config.php");
 
 							<div class="accordion-group ">
 								<div class="accordion-heading">
-									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
-									   href="#collapseTwo">
+									<a class="accordion-toggle" data-toggle="" data-parent="#accordion2"
+									   href="#"  id="return-book" onClick="changeFrame(this.id)">
 										Return Books &nbsp
 										<i class="icon-chevron-right"></i>
 									</a>
 								</div>
-								<div id="collapseTwo" class="accordion-body collapse">
-									<div class="accordion-inner">
-										Return Books
-									</div>
-								</div>
+<!--								<div id="collapseTwo" class="accordion-body collapse">-->
+<!--									<div class="accordion-inner">-->
+<!--										Return Books-->
+<!--									</div>-->
+<!--								</div>-->
 							</div>
 
 							<div class="accordion-group">
 								<div class="accordion-heading">
-									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
-									   href="#collapseThree">
+									<a class="accordion-toggle" data-toggle="" data-parent="#accordion2"
+									   href="#" id="due_clearance" onClick="changeFrame(this.id)">
 										Due Clearance
 										<i class="icon-chevron-right"></i>
 									</a>
 								</div>
-								<div id="collapseThree" class="accordion-body collapse">
-									<div class="accordion-inner">
-										Due Clearance&nbsp
-									</div>
-								</div>
+<!--								<div id="collapseThree" class="accordion-body collapse">-->
+<!--									<div class="accordion-inner">-->
+<!--										Due Clearance&nbsp-->
+<!--									</div>-->
+<!--								</div>-->
 							</div>
 
 							<div class="accordion-group">
 								<div class="accordion-heading">
-									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
-									   href="#collapseFour">
+									<a class="accordion-toggle" data-toggle="" data-parent="#accordion2"
+									   href="#" id="add_books" onClick="changeFrame(this.id)">
 										Add Books &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 										<i class="icon-chevron-right"></i>
 									</a>
 								</div>
-								<div id="collapseFour" class="accordion-body collapse">
-									<div class="accordion-inner">
-										Add Books
-									</div>
-								</div>
+<!--								<div id="collapseFour" class="accordion-body collapse">-->
+<!--									<div class="accordion-inner">-->
+<!--										Add Books-->
+<!--									</div>-->
+<!--								</div>-->
 							</div>
 
 							<div class="accordion-group">
 								<div class="accordion-heading">
-									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
-									   href="#collapseFive">
+									<a class="accordion-toggle" data-toggle="" data-parent="#accordion2"
+									   href="#" id="add_category" onClick="changeFrame(this.id)">
 										Add Categories
 										<i class="icon-chevron-right"></i>
 									</a>
 								</div>
-								<div id="collapseFive" class="accordion-body collapse">
-									<div class="accordion-inner">
-										Add Categories
-									</div>
-								</div>
+<!--								<div id="collapseFive" class="accordion-body collapse">-->
+<!--									<div class="accordion-inner">-->
+<!--										Add Categories-->
+<!--									</div>-->
+<!--								</div>-->
 							</div>
 
 							<div class="accordion-group">
@@ -110,9 +115,9 @@ include_once("config.php");
 								</div>
 								<div id="collapseSix" class="accordion-body collapse">
 									<div class="accordion-inner">
-										<a href="#">Student</a><br>
-										<a href="#">Teacher</a><br>
-										<a href="#">Admin</a>
+										<a href="#" id="student_record" onClick="changeFrame(this.id)">Student</a><br>
+										<a href="#" id="teacher_record" onClick="changeFrame(this.id)">Teacher</a><br>
+										<a href="#" id="admin_record" onClick="changeFrame(this.id)">Admin</a>
 									</div>
 								</div>
 							</div>

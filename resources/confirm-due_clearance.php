@@ -27,85 +27,81 @@ $result1 = mysql_query($query1);
 	</head>
 	<body>
 		<div class="container-fluid">
-			<div class="row-fluid">
-				<div class="span3" style="border:1px solid black">
+			<div class="span9 well" style="border:1px solid black;font-size: 16px">
+				<div class="row-fluid">
+					<div class="span12" style="background-color: #808080">
+						<h2><strong>CONFIRM DUE CLEARANCE</strong></h2>
+					</div>
 				</div>
-				<div class="span9 well" style="border:1px solid black;font-size: 16px">
-					<div class="row-fluid">
-						<div class="span12" style="background-color: #808080">
-							<h2><strong>CONFIRM DUE CLEARANCE</strong></h2>
-						</div>
+				</br>
+				<div class="row-fluid">
+					<div class="span4">
+						<b>Username : </b> <?php echo $row['first_name'] . " " . $row['last_name'] ?>
 					</div>
-					</br>
-					<div class="row-fluid">
-						<div class="span4">
-							<b>Username : </b> <?php echo $row['first_name'] . " " . $row['last_name'] ?>
-						</div>
-						<div class="span4">
-							<b>Roll No. : </b> <?php echo $row['roll_no'] ?>
-						</div>
+					<div class="span4">
+						<b>Roll No. : </b> <?php echo $row['roll_no'] ?>
 					</div>
-					<div class="row-fluid">
-						<div class="span4">
-							<b>Enrollment No. : </b> <?php echo $row['enrollment_no'] ?>
-						</div>
-						<div class="span4">
-							<b>Branch : </b> <?php echo $row['branch'] ?>
-						</div>
+				</div>
+				<div class="row-fluid">
+					<div class="span4">
+						<b>Enrollment No. : </b> <?php echo $row['enrollment_no'] ?>
 					</div>
-					<div class="row-fluid">
-						<div class="span4">
-							<b>Semester : </b> <?php echo $row['semester'] ?>
-						</div>
+					<div class="span4">
+						<b>Branch : </b> <?php echo $row['branch'] ?>
 					</div>
-					<hr>
-					<div class="row-fluid">
-						<div class="span12">
-							<table class="table table-striped">
-								<thead style="background: peru">
-									<tr>
-										<th>#</th>
-										<th>Issue Code</th>
-										<th>Title</th>
-										<th>Author</th>
-										<th>Fine</th>
-									</tr>
-								</thead>
-								<tbody>
-									<?php $counter = 0;
-									while ($row1 = mysql_fetch_array($result1)) {
-										$counter++;
-										echo "<tr>
+				</div>
+				<div class="row-fluid">
+					<div class="span4">
+						<b>Semester : </b> <?php echo $row['semester'] ?>
+					</div>
+				</div>
+				<hr>
+				<div class="row-fluid">
+					<div class="span12">
+						<table class="table table-striped">
+							<thead style="background: peru">
+								<tr>
+									<th>#</th>
+									<th>Issue Code</th>
+									<th>Title</th>
+									<th>Author</th>
+									<th>Fine</th>
+								</tr>
+							</thead>
+							<tbody>
+								<?php $counter = 0;
+								while ($row1 = mysql_fetch_array($result1)) {
+									$counter++;
+									echo "<tr>
 					                                <td>" . $counter . "</td>
 					                                <td>" . $row1['issue_code'] . "</td>
 					                                <td>" . $row1['title'] . "</td>
 					                                <td>" . $row1['author'] . "</td>
 					                                <td>" . $row1['fine'] . "</td>
 					                            </tr>";
-									}?>
-								</tbody>
-							</table>
+								}?>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<hr>
+				<form action="clearance!.php" method="POST">
+					<input type="hidden" name="roll_no" value='<?php echo $roll_no ?>'>
+
+					<div class="row-fluid">
+						<div class="span2">
+							<button type="submit" id="comfirm" class="btn btn-large btn-success"
+							        name="confirm"><i class="icon-ok"></i> Confirm
+							</button>
+						</div>
+						<div class="span2">
+							<button type="button" class="btn btn-large btn-warning" name="cancel"
+							        onclick="javascript:history.go(-1)">
+								<i class="icon-remove"></i> Cancel
+							</button>
 						</div>
 					</div>
-					<hr>
-					<form action="clearance!.php" method="POST">
-						<input type="hidden" name="roll_no" value='<?php echo $roll_no ?>'>
-
-						<div class="row-fluid">
-							<div class="span2">
-								<button type="submit" id="comfirm" class="btn btn-large btn-success"
-								        name="confirm"><i class="icon-ok"></i> Confirm
-								</button>
-							</div>
-							<div class="span2">
-								<button type="button" class="btn btn-large btn-warning" name="cancel"
-								        onclick="javascript:history.go(-1)">
-									<i class="icon-remove"></i> Cancel
-								</button>
-							</div>
-						</div>
-					</form>
-				</div>
+				</form>
 			</div>
 		</div>
 	</body>

@@ -28,10 +28,8 @@ else {
 	</head>
 	<body>
 		<div class="container-fluid">
-			<div class="row-fluid">
-				<div class="span3" style="border:1px solid black">
-				</div>
-				<div class="span9 well" style="border:1px solid black;font-size: 16px">
+			<div class="span9 well" style="border:1px solid black;font-size: 16px">
+				<div class="row-fluid">
 					<div class="row-fluid">
 						<div class="span12" style="background-color: #808080">
 							<h2><strong>CONFIRM BOOK RETURN</strong></h2>
