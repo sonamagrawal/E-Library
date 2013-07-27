@@ -1,15 +1,21 @@
 <!DOCTYPE HTML>
 <?php
 include_once("config.php");
-$query = "select DISTINCT title,author,category.name as name from books join category on books.category_id = category.category_id";
+$query = "select DISTINCT title,author from books";
 $result = mysql_query($query);
+
+$find_category = "select DISTINCT name from category";
+$categories = mysql_query($find_category);
+
 $title = '';
 $author = '';
 $category = '';
 while ($row = mysql_fetch_array($result)) {
 	$title .= '"' . $row['title'] . '",';
 	$author .= '"' . $row['author'] . '",';
-	$category .= '"' . $row['name'] . '",';
+}
+while ($row1 = mysql_fetch_array($categories)) {
+	$category .= '"' . $row1['name'] . '",';
 }
 $title_list = '[' . rtrim($title, ",") . ']';
 $author_list = '[' . rtrim($author, ",") . ']';
