@@ -25,12 +25,12 @@ $category_list = '[' . rtrim($category, ",") . ']';
 <body style="background-color: #ffffcc">
 
 <?php
-include_once('header.html') ;
+include_once('header.html');
 ?>
 
 <div class="container-fluid">
 	<div class="row-fluid">
-		<div class="span9 well" style="border:1px solid red;">
+		<div class="span9">
 			<div class="span1">
 			</div>
 			<div class="span5 book-view-left" style="background-color: blue">
@@ -51,6 +51,7 @@ include_once('header.html') ;
 						<h1><strong>Book</strong></h1>
 					</div>
 				</div>
+				<br>
 				<br>
 				<br>
 				<br>
@@ -157,6 +158,7 @@ include_once('header.html') ;
 					</div>
 				</div>
 				<br>
+				<br>
 			</div>
 			<div class="span1">
 			</div>
@@ -169,7 +171,6 @@ include_once('header.html') ;
 			</div>
 			<div class="row-fluid">
 				<div class="span12 text-center" style="border: 1px dotted #000000">
-					<br>
 					<br>
 					<br>
 					<br>
