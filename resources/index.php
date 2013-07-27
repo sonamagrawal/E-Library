@@ -25,7 +25,7 @@ $category_list = '[' . rtrim($category, ",") . ']';
 <head>
 	<title> E-LIBRARY |HOME </title>
 	<link href="/public_html/css/bootstrap.css" type="text/css" rel="stylesheet">
-	<link href="/public_html/css/bootstrap-responsive.css" type="text/css" rel="stylesheet">
+    <link href="/public_html/css/bootstrap-responsive.css" type="text/css" rel="stylesheet">
 	<link href="/public_html/css/home-style.css" type="text/css" rel="stylesheet">
 </head>
 <body style="background-color: #ffffcc;">
@@ -112,7 +112,7 @@ include_once('header.html');
 													<input
 														type="text"
 														name="author"
-														PLACEHOLDER="Select Title"
+														PLACEHOLDER="Select Author"
 														data-provide="typeahead"
 														autocomplete="off"
 														data-items="6"
@@ -131,7 +131,7 @@ include_once('header.html');
 													<!--														CATEGORY &nbsp -->
 													<input type="text"
 													       name="category"
-													       PLACEHOLDER="Select Title"
+													       PLACEHOLDER="Select Category"
 													       data-provide="typeahead"
 													       autocomplete="off"
 													       data-items="6"
