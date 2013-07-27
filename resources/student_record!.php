@@ -12,7 +12,7 @@ $query = "insert into student_record (roll_no,first_name,last_name,enrollment_no
 	     $branch . "'," . $semester . ")";
 mysql_query($query);
 
-$insert_login = "insert into login(user_name, password) values('" . $roll_no . "',md5('" . $enrollment_no . "'))";
+$insert_login = "insert into login(user_name,user_type, password) values('" . $roll_no . "','S',md5('" . $enrollment_no . "'))";
 mysql_query($insert_login);
 $user_id = mysql_insert_id() ;
 
