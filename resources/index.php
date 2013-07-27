@@ -22,7 +22,8 @@ $category_list = '[' . rtrim($category, ",") . ']';
 	<link href="/public_html/css/bootstrap-responsive.css" type="text/css" rel="stylesheet">
 	<link href="/public_html/css/home-style.css" type="text/css" rel="stylesheet">
 </head>
-<body>
+<body style="background-color: #ffffcc">
+
 <?php
 include_once('header.html') ;
 ?>
