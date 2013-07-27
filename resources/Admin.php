@@ -7,6 +7,7 @@ include_once("config.php");
 		<title> E-LIBRARY |ADMIN </title>
 		<link href="/public_html/css/bootstrap.css" type="text/css" rel="stylesheet">
 		<link href="/public_html/css/bootstrap-responsive.css" type="text/css" rel="stylesheet">
+		<link href="/public_html/css/highlight.css" type="text/css" rel="stylesheet">
 		<!--		<script src="/public_html/js/bootstrap-transition.js"></script>-->
 		<script src="/public_html/jquery/jquery.js"></script>
 		<script src="/public_html/js/bootstrap-collapse.js"></script>
@@ -23,26 +24,28 @@ include_once("config.php");
 							<h4 style="color: #ffffff">Work Space</h4>
 						</div>
 						<hr>
-						<div class="accordion" id="accordion2">
-							<div class="accordion-group">
+						<div class="accordion highlight" id="accordion2">
+							<div class="accordion-group ">
 								<div class="accordion-heading">
-									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
-									   href="#collapseOne">
-										Search Books
+									<a class="accordion-toggle" data-toggle="" data-parent="#accordion2"
+									   href="#">
+										Search Books &nbsp
+										<i class="icon-chevron-right"></i>
 									</a>
 								</div>
-								<div id="collapseOne" class="accordion-body collapse" style="height: 0px; ">
-									<div class="accordion-inner">
-										Search Books
-									</div>
-								</div>
+<!--								<div id="collapseOne" class="accordion-body collapse" style="height: 0px; ">-->
+<!--									<div class="accordion-inner">-->
+<!--										Search Books-->
+<!--									</div>-->
+<!--								</div>-->
 							</div>
 
-							<div class="accordion-group">
+							<div class="accordion-group ">
 								<div class="accordion-heading">
 									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
 									   href="#collapseTwo">
-										Return Books
+										Return Books &nbsp
+										<i class="icon-chevron-right"></i>
 									</a>
 								</div>
 								<div id="collapseTwo" class="accordion-body collapse">
@@ -57,11 +60,12 @@ include_once("config.php");
 									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
 									   href="#collapseThree">
 										Due Clearance
+										<i class="icon-chevron-right"></i>
 									</a>
 								</div>
 								<div id="collapseThree" class="accordion-body collapse">
 									<div class="accordion-inner">
-										Due Clearance
+										Due Clearance&nbsp
 									</div>
 								</div>
 							</div>
@@ -70,7 +74,8 @@ include_once("config.php");
 								<div class="accordion-heading">
 									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
 									   href="#collapseFour">
-										Add Books
+										Add Books &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+										<i class="icon-chevron-right"></i>
 									</a>
 								</div>
 								<div id="collapseFour" class="accordion-body collapse">
@@ -85,6 +90,7 @@ include_once("config.php");
 									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
 									   href="#collapseFive">
 										Add Categories
+										<i class="icon-chevron-right"></i>
 									</a>
 								</div>
 								<div id="collapseFive" class="accordion-body collapse">
@@ -98,7 +104,8 @@ include_once("config.php");
 								<div class="accordion-heading">
 									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
 									   href="#collapseSix">
-										Add Users
+										Add Users &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+										<i class="icon-chevron-down"></i>
 									</a>
 								</div>
 								<div id="collapseSix" class="accordion-body collapse">
@@ -116,6 +123,11 @@ include_once("config.php");
 				<div class="span9" style="border:1px solid black">
 					<div class="row-fluid">
 						<div class="span12">
+							<iframe src="/resources/search_book.php" frameborder="0" height="600px"
+							        width="600px" seamless id="top-content-box"
+							        name="content-box" scrolling="no" sandbox="allow-forms allow-scripts">
+<!--								<p>Your browser does not support iframes.</p>-->
+							</iframe>
 						</div>
 					</div>
 				</div>
