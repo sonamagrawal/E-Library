@@ -86,7 +86,7 @@ $result1 = mysql_query($query1);
 				</div>
 				<hr>
 				<form action="clearance!.php" method="POST">
-					<input type="hidden" name="roll_no" value='<?php echo $roll_no ?>'>
+					<input type="hidden" name="userID" value='<?php echo $GLOBALS['user_id'] ?>'>
 
 					<div class="row-fluid">
 						<div class="span2">
