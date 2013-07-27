@@ -26,88 +26,67 @@ include_once("config.php");
 		?>
 		<div class="container-fluid">
 			<div class="row-fluid">
-				<div class="span3" style="border:1px solid black">
-					<div class="row-fluid">
-						<div class="span12">SEARCH BOOK</div>
-					</div>
-					<div class="row-fluid">
-						<div class="span12">
-							<table class="table well">
-								<form class="form-horizontal" action="books.php" method="POST">
-									<tbody>
-										<tr>
-											<td>
-												<div class="control-group">
-													<div class="controls">
-														TITLE &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input
-															class="span8" type="text" name="title"
-															PLACEHOLDER="Select Title"
-															data-provide="typeahead" autocomplete="off"
-															data-items="6"
-															min-length="1"
-															data-source='<?php echo $title_list ?>'>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<div class="control-group">
-													<div class="controls">
-														AUTHOR &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input class="span8"
-														                                             type="text"
-														                                             name="author"
-														                                             PLACEHOLDER="Select Title"
-														                                             data-provide="typeahead"
-														                                             autocomplete="off"
-														                                             data-items="6"
-														                                             min-length="1"
-														                                             data-source='<?php echo $author_list ?>'>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<div class="control-group">
-													<div class="controls">
-														CATEGORY &nbsp <input class="span8" type="text" name="category"
-														                      PLACEHOLDER="Select Title"
-														                      data-provide="typeahead"
-														                      autocomplete="off"
-														                      data-items="6"
-														                      min-length="1"
-														                      data-source='<?php echo $category_list ?>'>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<div class="form-actions">
-													<button id="dddd" type="SUBMIT" class="btn btn-large btn-success"
-													        data-loading-text="Searching.."
-													        name="submit">
-														<i class="icon-search"></i>Search
-													</button>
-													<button type="RESET" class="btn btn-large btn-primary" name="reset">
-														<i class="icon-refresh"></i>Reset
-													</button>
-												</div>
-											</td>
-										</tr>
-									</tbody>
-								</form>
-							</table>
-						</div>
-					</div>
+				<div class="span12" style="background-color: #808080">
+					<h2><strong>SEARCH BOOK</strong></h2>
 				</div>
-				<div class="span9" style="border:1px solid black">
-					<!--Body content-->
+			</div>
+			<div class="row-fluid">
+				<div class="span12 well">
+					<form class="form-horizontal" action="books.php" method="POST">
+						<div class="control-group">
+							<label class="control-label ">TITLE </label>
+
+							<div class="controls">
+								<input class="span8" type="text" name="title"
+								       PLACEHOLDER="Select Title"
+								       data-provide="typeahead" autocomplete="off"
+								       data-items="6"
+								       min-length="1"
+								       data-source='<?php echo $title_list ?>'>
+							</div>
+						</div>
+						<div class="control-group">
+							<label class="control-label">AUTHOR </label>
+
+							<div class="controls">
+								<input class="span8"
+								       type="text"
+								       name="author"
+								       PLACEHOLDER="Select Author"
+								       data-provide="typeahead"
+								       autocomplete="off"
+								       data-items="6"
+								       min-length="1"
+								       data-source='<?php echo $author_list ?>'>
+							</div>
+						</div>
+						<div class="control-group">
+							<label class="control-label">CATEGORY </label>
+
+							<div class="controls">
+								<input class="span8" type="text" name="category"
+								       PLACEHOLDER="Select Category"
+								       data-provide="typeahead"
+								       autocomplete="off"
+								       data-items="6"
+								       min-length="1"
+								       data-source='<?php echo $category_list ?>'>
+							</div>
+						</div>
+						<div class="form-actions">
+							<button id="dddd" type="SUBMIT" class="btn btn-large btn-success"
+							        data-loading-text="Searching.."
+							        name="submit">
+								<i class="icon-search"></i> Search
+							</button>
+							<button type="RESET" class="btn btn-large btn-primary" name="reset">
+								<i class="icon-refresh"></i> Reset
+							</button>
+						</div>
+					</form>
 				</div>
 			</div>
 		</div>
-
 	</body>
 	<script src="/public_html/jquery/jquery.js"></script>
 	<script src="/public_html/js/bootstrap-typeahead.js"></script>
