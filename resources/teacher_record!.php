@@ -19,4 +19,4 @@ $user_id = mysql_insert_id() ;
 $insert_card_id = "insert into card_detail(user_id) values(".$user_id."),(".$user_id."),(".$user_id.")" ;
 mysql_query($insert_card_id);
 
-header("location:teacher_record.php");
+header("location:teacher_record.php?m=1");

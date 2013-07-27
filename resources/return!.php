@@ -12,6 +12,7 @@ if ($fine > 0) {
 	$insert_fine = "insert into fine_detail(ISSUE_CODE,FINE) values(" . $issue_id . "," . $fine . ")";
 	$result = mysql_query($update_issue_table);
 	$result_1 = mysql_query($insert_fine);
+	header("location:return-book.php?m=2&fine=$fine");
 } else {
 	$update_table = "UPDATE issued_books join card_detail on issued_books.card_id = card_detail.card_id
                            join books on issued_books.book_id_no = books.book_id_no set returned = 'Y',
@@ -20,7 +21,7 @@ if ($fine > 0) {
 	$result_2 = mysql_query($update_table);
 }
 
-header("location:search_book.php");
+header("location:return-book.php?m=1");
 
 
 

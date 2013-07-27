@@ -14,4 +14,4 @@ mysql_query("$query");
 $insert_login = "insert into login(user_name,user_type, password) values('" . $employee_no . "','A'
 ,md5('" . $employee_no . "'))";
 mysql_query($insert_login);
-header("location:admin_record.php");
+header("location:admin_record.php?m=1");

@@ -7,6 +7,8 @@ include_once("config.php");
 		<title> E-LIBRARY |SEARCH BOOK </title>
 		<link href="/public_html/css/bootstrap.css" type="text/css" rel="stylesheet">
 		<link href="/public_html/css/bootstrap-responsive.css" type="text/css" rel="stylesheet">
+		<script src="/public_html/jquery/jquery.js"></script>
+		<script src="/public_html/js/bootstrap-alert.js"></script>
 	</head>
 	<body>
 		<?php
@@ -29,6 +31,18 @@ include_once("config.php");
 		$title_list = '[' . rtrim($title, ",") . ']';
 		$author_list = '[' . rtrim($author, ",") . ']';
 		$category_list = '[' . rtrim($category, ",") . ']';
+
+		if (isset($_GET['m']))
+			if ($_GET['m'] == '1')
+				echo '<div class="alert alert-success">
+				<button type="button" class="close" data-dismiss="alert">&times;</button>
+				<strong>Successfull!</strong> Book Issued Successfully.
+				</div>';
+			elseif ($_GET['m'] == '0')
+				echo '<div class="alert alert-info">
+				<button type="button" class="close" data-dismiss="alert">&times;</button>
+				<strong>Sorry!</strong> Student Doesnot Have Cards Left to Issue Books.
+				</div>';
 		?>
 		<div class="container-fluid">
 			<div class="row-fluid">

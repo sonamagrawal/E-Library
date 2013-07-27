@@ -10,7 +10,7 @@ $query = "select issued_books.book_id_no,title,user_name,card_id,return_date fro
 $result = mysql_query($query);
 
 if (mysql_num_rows($result) == 0) {
-	header("location:javascript://:history.go(-1)");
+	header("location:return-book.php?m=0");
 }
 $row = mysql_fetch_array($result);
 

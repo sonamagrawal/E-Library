@@ -6,4 +6,4 @@ $query = "Update student_record join issued_books on issued_books.user_id = stud
 		  set fine_detail.paid = 'Y'
 		  where student_record.roll_no = '" . $roll_no . "' and issued_books.fine= 'Y'" ;
 $result = mysql_query($query);
-header("location:profile.php");
+header("location:due_clearance.php?m=1");
