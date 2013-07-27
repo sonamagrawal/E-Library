@@ -8,7 +8,7 @@ $query = "select user_id,first_name,last_name,enrollment_no,roll_no,branch,semes
 
 $result = mysql_query($query);
 if (mysql_num_rows($result) == 0) {
-	header("location:javascript://:history.go(-1)");
+	header("location:due_clearance.php?m=0");
 }
 $row = mysql_fetch_array($result);
 $user_id = $row['user_id'];
