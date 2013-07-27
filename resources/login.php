@@ -34,8 +34,8 @@
 
 
                         <div class="form-actions">
-                            <button type="submit" class="btn btn-success" name="submit">GO !</button>
-                            <button type="reset" class="btn btn-success" name="reset">RESET</button>
+                            <button type="submit" class="btn btn-success" name="submit"><i class="icon-user"></i>GO !</button>
+                            <button type="reset" class="btn btn-success" name="reset"><i class="icon-refresh"></i>RESET</button>
                         </div>
                     </fieldset>
                 </form>
