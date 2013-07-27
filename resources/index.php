@@ -138,18 +138,16 @@ include_once('header.html');
 									<tr>
 										<td>
 											<br>
-											<!--													<div class="form-actions">-->
-											<button type="RESET" class="btn btn-large btn-primary"
-											        name="reset">
-												<i class="icon-refresh"></i>Reset
-											</button>
 											<button id="dddd" type="SUBMIT"
 											        class="btn btn-large btn-success"
 											        data-loading-text="Searching.."
 											        name="submit">
-												<i class="icon-search"></i>Search
+												<i class="icon-search icon-white"></i> Search
 											</button>
-											<!--													</div>-->
+											<button type="RESET" class="btn btn-large btn-inverse"
+											        name="reset">
+												<i class="icon-refresh icon-white"></i> Reset
+											</button>
 										</td>
 									</tr>
 								</tbody>
@@ -232,6 +230,7 @@ include_once('header.html');
 <script src="/public_html/jquery/jquery.js"></script>
 <script src="/public_html/js/bootstrap-typeahead.js"></script>
 <script src="/public_html/js/bootstrap-button.js"></script>
+<script src="/public_html/js/bootstrap-modal.js"></script>
 <script>$('#dddd')
 		.click(function () {
 			var btn = $(this)
