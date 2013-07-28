@@ -11,7 +11,7 @@ include_once("config.php");
 		<script src="/public_html/jquery/jquery.js"></script>
 		<script src="/public_html/js/bootstrap-collapse.js"></script>
 		<script language="JavaScript" type="text/javascript">
-			function changeFrame(page){
+			function changeFrame(page) {
 				document.getElementById('top-content-box').src = page + ".php";
 			}
 		</script>
@@ -68,7 +68,7 @@ include_once("config.php");
 										<i class="icon-chevron-right"></i>
 									</a>
 								</div>
-<!--								<div id="collapseThree" class="accordion-body collapse">-->
+								<!--								<div id="collapseThree" class="accordion-body collapse">-->
 								<!--									<div class="accordion-inner">-->
 								<!--										Fine Detail-->
 								<!--									</div>-->
@@ -93,3 +93,7 @@ include_once("config.php");
 		</div>
 	</body>
 </html>
+<?php if (isset($_POST['title'])) {
+	echo "<script> document.getElementById('top-content-box').src = 'books.php?title=".$_POST['title']."&author=".$_POST['author']."&category=".$_POST['category']."';
+		 </script>";
+}?>

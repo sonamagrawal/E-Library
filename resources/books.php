@@ -1,9 +1,16 @@
 <!DOCTYPE HTML>
 <?php
 include_once("config.php");
-$title = $_POST['title'] ? strtoupper($_POST['title']) : '%';
-$author = $_POST['author'] ? strtoupper($_POST['author']) : '%';
-$category = $_POST['category'] ? strtoupper($_POST['category']) : '%';
+
+if (isset($_GET['title'])) {
+	$title = $_GET['title'] ? strtoupper($_GET['title']) : '%';
+	$author = $_GET['author'] ? strtoupper($_GET['author']) : '%';
+	$category = $_GET['category'] ? strtoupper($_GET['category']) : '%';
+} else {
+	$title = $_POST['title'] ? strtoupper($_POST['title']) : '%';
+	$author = $_POST['author'] ? strtoupper($_POST['author']) : '%';
+	$category = $_POST['category'] ? strtoupper($_POST['category']) : '%';
+}
 $query = "select book_id_no,title,author,company,published_year,in_rack,category.name as name
           from books join category on books.category_id = category.category_id where title
           like ('" . $title . "') and author like('" . $author . "') and category.name like ('" . $category . "') order by popularity desc,published_year desc,in_rack desc";

@@ -81,7 +81,7 @@ include_once('header.php');
 
 				<div class="row-fluid">
 					<div class="span12">
-						<form action="books.php" method="POST">
+						<form action="profile.php" method="POST">
 							<table class="table">
 								<tbody>
 									<tr>
