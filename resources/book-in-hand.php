@@ -1,11 +1,17 @@
 <!DOCTYPE HTML>
 <?php
 include_once("config.php");
-$_SESSION['u_id'] = '1';
+session_start();
+if (!isset($_SESSION['u_id']))
+	header("location:alert-box.php?m=0");
+else {
+	$query = "select title,author,company,published_year,issued_date,return_date from books join issued_books
+          on books.book_id_no = issued_books.book_id_no where issued_books.user_id = '" . $_SESSION['u_id'] . "' and issued_books.returned = 'N'";
+	$result = mysql_query($query);
 
-$query = "select title,author,company,published_year,issued_date,return_date from books join issued_books
-            on books.book_id_no = issued_books.book_id_no where issued_books.user_id = '" . $_SESSION['u_id'] . "' and issued_books.returned = 'N'";
-$result = mysql_query($query);
+	if (mysql_num_rows($result) == 0)
+		header("location:alert-box.php?m=2");
+}
 ?>
 <html>
 	<head>
@@ -35,8 +41,8 @@ $result = mysql_query($query);
 							</tr>
 						</thead>
 						<tbody>
-							<?php  ini_alter('date.timezone','Asia/Calcutta');
-                            $counter = 0;
+							<?php  ini_alter('date.timezone', 'Asia/Calcutta');
+							$counter = 0;
 							while ($row = mysql_fetch_array($result)) {
 								$counter++;
 								$status = date('Y-m-d ', strtotime($row['return_date'])) < date('Y-m-d ') ? 'warning' : 'success';
