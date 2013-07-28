@@ -1,13 +1,21 @@
 <!DOCTYPE HTML>
 <?php
 include_once("config.php");
-$_SESSION['u_id'] = '1';
-$fine_query = "select title,author,returned_on,return_date,fine_detail.fine as fine from issued_books join
+session_start();
+
+if (!isset($_SESSION['u_id']))
+	header("location:alert-box.php?m=0");
+else {
+	$fine_query = "select title,author,returned_on,return_date,fine_detail.fine as fine from issued_books join
 			   books on issued_books.book_id_no = books.book_id_no join fine_detail on
                issued_books.issue_code = fine_detail.issue_code where
                issued_books.user_id = '" . $_SESSION['u_id'] . "'and issued_books.fine = 'Y' and
                fine_detail.paid = 'N'";
-$result_fine = mysql_query($fine_query);
+	$result_fine = mysql_query($fine_query);
+
+	if (mysql_num_rows($result) == 0)
+		header("location:alert-box.php?m=3");
+}
 ?>
 <html>
 	<head>
