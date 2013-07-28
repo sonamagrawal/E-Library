@@ -63,7 +63,7 @@ $result = mysql_query($query);
 	                                <td>" . $row['name'] . "</td>
 	                                <td>" . $row['published_year'] . "</td>
 	                                <td>" . $row['in_rack'] . "</td>
-	                                <td>Available On:</br></td>
+	                                <td>Not Available</br></td>
 	                                </tr>";
 							}?>
 						</tbody>
