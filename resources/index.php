@@ -31,7 +31,7 @@ $category_list = '[' . rtrim($category, ",") . ']';
 <body style="background-color: #ffffcc;">
 
 <?php
-include_once('header.html');
+include_once('header.php');
 ?>
 
 <div class="container-fluid">

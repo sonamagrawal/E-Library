@@ -7,7 +7,7 @@
 </div>
 <div class="container-fluid well">
 	<div class="row-fluid">
-		 <div class="span12">
+		<div class="span12">
 			<div class="span3">
 				<a href="index.php"><img src="/public_html/img/e_library_logo.gif"
 				                         alt="Welcome To E-LIBRARY" title="Home"></a>
@@ -21,15 +21,26 @@
 				</ul>
 			</div>
 			<div class="span3">
-				<a class="btn btn-primary " href="#LoginModal" data-toggle="modal">
-					<i class="icon-user icon-white"></i> Login</a>
+				<i class="icon-user"></i>
+				<?php session_start();
+				if (isset($_SESSION['u_id']))
+					echo '<a  href="profile.php" style="text-decoration: none;
+					 font-size: 13px;text-align:center;">' . $_SESSION['name'] . '</a>
+					<a  href="logout.php" style="text-decoration: none;
+					 font-size: 13px;text-align:center;">Logout</a>';
+				else
+					echo '<a  href="#LoginModal" data-toggle="modal" style="text-decoration: none;
+					 font-size: 19px;text-align:center;"> Login</a>';
+				?>
 			</div>
 		</div>
 	</div>
 </div>
-<div id="LoginModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div id="LoginModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
 	<div class="modal-header">
-		<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="/public_html/img/layout/close.png"></button>
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img
+				src="/public_html/img/layout/close.png"></button>
 		<h3 id="myModalLabel">LOGIN</h3>
 	</div>
 	<div class="modal-body">
@@ -42,7 +53,7 @@
 
 							<div class="controls">
 								<input type="text" required class="span8" name="username"
-										placeholder="Roll No./Employee No.">
+								       placeholder="Roll No./Employee No.">
 							</div>
 						</div>
 						<div class="control-group">
@@ -53,8 +64,12 @@
 							</div>
 						</div>
 						<div class="form-actions">
-							<button type="submit" class="btn btn-large btn-success" name="submit"><i class="icon-user icon-white"></i> GO !</button>
-							<button type="reset" class="btn btn-large btn-inverse" name="reset"><i class="icon-refresh icon-white"></i> RESET</button>
+							<button type="submit" class="btn btn-large btn-success" name="submit"><i
+									class="icon-user icon-white"></i> GO !
+							</button>
+							<button type="reset" class="btn btn-large btn-inverse" name="reset"><i
+									class="icon-refresh icon-white"></i> RESET
+							</button>
 						</div>
 					</fieldset>
 				</form>

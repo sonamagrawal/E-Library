@@ -19,7 +19,7 @@ include_once("config.php");
 	</head>
 	<body style="background-color: #ffffcc;">
 		<?php
-		include_once('header.html');
+		include_once('header.php');
 		?>
 		<div class="container-fluid">
 			<div class="row-fluid">
